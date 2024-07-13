@@ -128,6 +128,7 @@
     font-size: 40px;
 }
 .category_card{
+    border-radius: 25px;
     box-shadow: 1px 1px 10px grey;
     margin: 30px;
     height: 200px;
@@ -656,6 +657,9 @@ a{
   }
   
   .img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
   }
   
@@ -663,6 +667,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
   }
   
   .social-media-links {
@@ -682,18 +687,21 @@ a{
   }
   
   .position {
+    text-align: center;
     font-size: 25px;
     font-weight: 700;
     color: rgb(0, 135, 177);
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-left: 0px;
   }
   
   .team-img {
-    width: 100%;
-    height: 100%;
+    margin: 15px;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
   }
   
   .team-card-container {
