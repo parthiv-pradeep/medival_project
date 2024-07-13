@@ -106,37 +106,65 @@
     line-height: 4rem;
     color: white;
 }
-.catagories{
-    display: flex;
-    justify-content: space-around;
-
-
+.home_p{
+    color: white;
+    width: 90vw;
+    text-align: left;
+    font-size: 22px;
+    line-height: 3rem;
 }
-.cat{
+.category_container{
+    width: 100vw;
     display: flex;
-    text-align: center;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
+.catagory_heading{
+    text-align: center;
+    margin: 20px;
+    color: royalblue;
+    font-size: 40px;
+}
+.category_card{
+    box-shadow: 1px 1px 10px grey;
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.category_card:hover {
+    transition: 1s;
+    background-color: royalblue;
+}
+.category_card:hover .icon i{
+    transition: 1s;
+    color: #fff;
+}
+.category_card:hover .name h5{
+    transition: 1s;
+    color: #fff;
+}
+
+.icon i {
+    font-size: 45px;
+    margin:20px
+}
+.name h5{
+    color: royalblue;
+    font-size: 19px;
+}
+
+
 .content{
     font-size: 15px;
     font-family: "poppins",monospace;
     font-weight: 400;
-}
-.cat_btn{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   text-decoration: none;
-   margin: 0 2rem;
-   width: 150px; 
-   height: 46px;
-   background-color:rgb(237, 239, 247);
-   border: none;
-   color:royalblue;
-   border-radius: 5px;
-   box-shadow: 0px 0px 6px #413c3c;
 }
 a{
     text-decoration: none;
@@ -159,14 +187,7 @@ a{
     .navbar{
         display: none;
     }
-    .cat_btn{
-        display: flex;
-        flex-direction: column;
-        height: 65px;
-        width: 100px;
-        margin: 4rem 1rem;
-
-    }
+    
     .fa-solid{
         font-size: 18px;
     }
@@ -184,6 +205,31 @@ a{
         font-size: 33px;
         line-height: 3rem;
         color: white;
+    }
+    .home_p{
+        color: white;
+        width: 90vw;
+        text-align: left;
+        font-size: 14px;
+        line-height: 2rem;
+    }
+    .category_card{
+        margin: 20px;
+        height: 100px;
+        width: 150px;
+        box-shadow: 1px 1px 10px grey;
+    
+    }
+    
+    .icon i {
+        font-size: 25px;
+        margin:10px
+    }
+    .name h5{
+        font-size: 15px;
+    }
+    .catagory_heading{
+        font-size: 37px;
     }
     .navbar-respo{
         margin: 7px auto;
