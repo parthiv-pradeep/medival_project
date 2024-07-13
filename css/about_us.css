@@ -13,7 +13,7 @@ body{
     overflow-x: hidden;
 }
 h1, h2, h3 {
-    color: #2190ff;   
+    color: royalblue;   
 }
 p{
     color: #444;
@@ -153,15 +153,17 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: 30px;
+    margin: 60px;
     align-items: center;
     overflow: hidden;
 }
 #mission-description {
     order: 1;
+    z-index: 3;
 }
 #mission-image {
     order: 2;
+    z-index: 2;
 }
 .mission-vision img{
     height: 300px;
@@ -184,7 +186,7 @@ p{
 }
 .description:hover:after{
     content: '';
-    background-color: #2190ff;
+    background-color: royalblue;
     height: 2px;
     width: 100%;
     position: absolute;
@@ -193,6 +195,14 @@ p{
     transition: 0.3s all ease;
     z-index: -1;
 }
+
+@media screen and (min-width:1000px) {
+    .mission-vision {
+        overflow: visible;
+        margin: 100px;
+    }
+}
+
 @media screen and (max-width:850px) {
     .mission-vision{
         flex-direction: column;
@@ -210,7 +220,7 @@ p{
         border-radius: 8px 8px 0 0;
     }
     .description{
-        border-bottom: 2px solid #2190ff;
+        border-bottom: 2px solid royalblue;
         margin-top: 0;
     }
 }
@@ -222,7 +232,7 @@ p{
 
 /* Our values */
 #our-values {
-    background-color: #2190ff;
+    background-color: royalblue;
     color: white;
     display: flex;
     flex-direction: column;
@@ -247,11 +257,11 @@ p{
     padding: 15px;
 }
 .value h2{
-    color: #2190ff;
+    color: royalblue;
 } 
 .value:hover{
     box-shadow: 4px 7px 7px 0px rgba(0, 0, 0, 0.1);
-    background-color: rgb(64, 154, 243);
+    background-color: rgb(82, 119, 228);
     color: white;
     transition: all 0.3s ease;
 }
@@ -270,7 +280,7 @@ p{
 
 /*icons*/
 .material-symbols-outlined {
-    color: #2190ff;
+    color: royalblue;
 }
 
 /* divider line */
@@ -287,7 +297,7 @@ p{
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: dodgerblue;
+    background-color: royalblue;
 }
 .blockquote {
     width: 70%;
@@ -312,7 +322,7 @@ p{
     content: "\201c";
     font-family: Gelasio, sans-serif;
     font-size: 100px;
-    color: #2190ff;
+    color: royalblue;
     display: block;
     margin-bottom: -70px;
     margin-top: -20px;
