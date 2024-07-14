@@ -656,11 +656,11 @@ a{
     flex-direction: column;
     height: 400px;
     width: 300px;
-    border: 2px solid lightblue;
-    
+    border: none;
+    box-shadow: 0px 0px 8px grey;
 }
 .product_card:hover{
-    box-shadow: 0px 0px 15px grey;
+    box-shadow: 0px 0px 20px grey;
     transition: .5s;
 }
 
