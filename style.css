@@ -278,6 +278,8 @@ a{
   width: auto;
 }
 .hero-image-container img {
+  position: relative;
+  margin-left: 6%;
   max-width: 100%;
   height: auto;
   vertical-align: middle;
@@ -303,12 +305,14 @@ a{
   font-weight: 1000px;
   font-style: italic;
   color: white;
+  background-color: rgba(0, 0, 0, 0.459);
 }
 .hero-text h2{
   color: white;
   font-weight: normal;
   font-size: 30px;
   font-style: italic;
+  background-color: rgba(0, 0, 0, 0.459);
 }
 #intros {
   display: flex;
@@ -343,7 +347,6 @@ a{
   .hero-text {
       top: 30%;
       left: 50%;
-      background-color: rgba(0, 0, 0, 0.5);
   }
   .hero-text h1{
       font-size: 40px;
