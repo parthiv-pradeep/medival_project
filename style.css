@@ -334,6 +334,9 @@ a{
 }
 
 @media screen and (max-width:1220px) {
+  .about--us{
+    display: none;
+  }
   .hero-section {
       overflow-x: hidden;
   }
