@@ -3,11 +3,23 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     font-family: poppins, sans-serif;
-    background-color: rgb(244, 252, 255);
+    background-color:#fff;
     overflow-x: hidden;
-}   
+} 
+
+.fa-solid{
+    z-index: 1;
+    color: royalblue;
+    font-size: 18px;
+}  
 
 
 .home{
