@@ -159,6 +159,9 @@ a{
 }
 
 @media only screen and (max-width: 710px) {
+    body {
+        overflow-x: hidden;
+    }
     .navbar{
         display: none;
     }
@@ -226,12 +229,11 @@ a{
 .main-heading {
     background-color: royalblue;
     color: white;
-    margin: 0;
-    padding: 0;
     box-shadow: inset 2px 2px 12px rgba(0 , 0, 0, 0.6);
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .object_form {
@@ -401,7 +403,7 @@ a{
     animation: vibrater 1.5s ease-out infinite;
 }
 
-.form {
+.form-section {
     display: flex;
     overflow: hidden;
     align-items: center;
@@ -440,6 +442,12 @@ a{
     border-radius: 8px 0 0 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
+}
+
+@media screen and (max-width:500px) {
+    .form-container {
+        padding: 0px;
+    }
 }
 
 .form-container h2 {
@@ -527,8 +535,9 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 923px) {
-    .form {
-        min-width: 88%;
+    .form-section {
+        min-width: 90%;
+        padding: 0;
         border-radius: 8px;
         box-shadow: 2px 2px 5px rgba(0 , 0, 0, 0.3);
     }
@@ -554,7 +563,7 @@ input:focus, textarea:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 2px 2px 2px rgba(0 , 0, 0, 0.3);
+    box-shadow: inset -2px -2px 2px rgba(0 , 0, 0, 0.3);
     max-width: fit-content;
     align-items: center;
     border-radius: 17px;
