@@ -310,7 +310,7 @@ a{
   font-size: 30px;
   font-style: italic;
 }
-#intro {
+#intros {
   display: flex;
   position: absolute;
   bottom: 20%;
@@ -332,6 +332,7 @@ a{
 .layer {
   display: none;
 }
+
 @media screen and (max-width:1220px) {
   .hero-section {
       overflow-x: hidden;
@@ -363,7 +364,7 @@ a{
       background-size: cover;
       shape-margin: 1rem;
   }
-  #intro {
+  #intros {
       position: absolute;
   }
 }
