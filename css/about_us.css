@@ -63,6 +63,7 @@ p{
     shape-margin: 1rem;
 }
 .hero-text {
+    color: black;
     position: absolute;
     top:30%;
     left: 25%;
@@ -78,10 +79,13 @@ p{
     font-size: 50px;
     font-weight: 1000px;
     font-style: italic;
-    color: white;
+    color: black;
+}
+.hero-heading {
+    color: black;
 }
 .hero-text h2{
-    color: white;
+    color: black;
     font-weight: normal;
     font-size: 30px;
     font-style: italic;
@@ -115,7 +119,6 @@ p{
     .hero-text {
         top: 30%;
         left: 50%;
-        background-color: rgba(0, 0, 0, 0.5);
     }
     .hero-text h1{
         font-size: 40px;
@@ -145,9 +148,6 @@ p{
 }
 
 /* mission and vision */
-#mission-image{
-    transform: scaleX(-1);
-}
 .mission-vision{
     display: flex;
     justify-content: center;
