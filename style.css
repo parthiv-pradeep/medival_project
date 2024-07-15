@@ -4,6 +4,139 @@
     padding: 0px;
     font-family: "poppins";
 }
+
+/* whatsapp chat */
+.whatsapp-chat #whatsapp-icon .fa-whatsapp {
+  position: absolute;
+}
+
+.whatsapp-chat .fa-whatsapp {
+  color: white;
+  font-size: 40px;
+}
+
+.whatsapp-chat #chat-box .fa-whatsapp {
+  font-size:25px;
+  margin-right: 8px;
+}
+
+.whatsapp-chat .fa-arrow-right {
+  color: white;
+  margin-left: 5px;
+  animation: whatsapp-chat 1s ease-in 0ms infinite alternate both;
+}
+
+.whatsapp-chat .fa-xmark {
+  font-size: 30px;
+  color: white;
+  opacity: 10;
+  position: absolute;
+}
+
+.whatsapp-chat #whatsapp-icon {
+  background-color: #25d366;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  right: 20px;
+}
+
+#chat-box {
+  background-color:#dcf8c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  display: normal;
+  position: fixed;
+  z-index: 1000;
+  bottom: 90px;
+  display: none;
+  right: 20px;
+}
+
+.whatsapp-chat #chat-box .chat-header {
+  background-color: #25d366;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  width: fit-content;
+  width: 100%;
+}
+
+.whatsapp-chat #chat-box .chat-body {
+  padding: 0 80px 0 10px;
+}
+
+.whatsapp-chat #chat-box .chat-body p {
+  background-color: white;
+  color: #607080;
+  margin: 10px 0;
+  border-radius: 4px 20px 19px 19px;
+  padding: 5px;
+}
+
+#chat-box .chat-button {
+  display: flex;
+  justify-content:right;
+  width: 100%;
+}
+
+#chat-box .chat-button button {
+  border-radius: 15px;
+  color: white;
+  background-color: #35897e;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  box-shadow: 0px 5px 1px #075e54;
+}
+
+#whatsapp-icon {
+  position: relative;
+}
+
+@keyframes whatsapp-chat {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(5px);
+  }
+}
+
+@keyframes  rotate-fade {
+  from {
+    opacity: 10;
+    transform: rotate(0deg);
+  }
+
+  50% {
+    opacity: 5;
+    transform: rotate(45deg);
+  }
+
+  to {
+    opacity: 0;
+    transform: rotate(90deg);
+  }
+}
+
+/* home */
 .home{
     overflow: hidden;
 }
