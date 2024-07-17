@@ -45,6 +45,8 @@
   z-index: 1000;
   bottom: 20px;
   right: 20px;
+  border: none;
+  position :relative;
 }
 
 #chat-box {
@@ -104,10 +106,6 @@
   margin-bottom: 10px;
   margin-right: 5px;
   box-shadow: 0px 5px 1px #075e54;
-}
-
-#whatsapp-icon {
-  position: relative;
 }
 
 @keyframes whatsapp-chat {
