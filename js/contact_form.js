@@ -12,7 +12,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     };
 
     // Send the form data using EmailJS
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData)
+    emailjs.send("service_tj20qpq", "template_w7dz8og", formData)
         .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
             alert('Your message has been sent successfully!');
