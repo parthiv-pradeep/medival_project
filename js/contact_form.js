@@ -3,7 +3,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
     // Collect the form data
     const formData = {
-        to_email: 'sales@medieval.ae',
+        to_email: 'thinkingwallflower@gmail.com',
         from_name: event.target.from_name.value,
         from_email: event.target.from_email.value,
         reply_to: event.target.from_email.value,
@@ -12,7 +12,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     };
 
     // Send the form data using EmailJS
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData)
+    emailjs.send(service_tj20qpq, template_kllv78r, formData)
         .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
             alert('Your message has been sent successfully!');
