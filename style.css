@@ -124,7 +124,7 @@
 }
 .catagory_heading{
     text-align: center;
-    margin: 20px;
+    margin: 13px;
     color: royalblue;
     font-size: 40px;
 }
@@ -176,11 +176,7 @@ a{
     color: royalblue;
     font-size: 18px;
 }
-.fa-solid:hover{
-    cursor: pointer;
-    transition: 1s;
-    transform: translateX(5px);
-}
+
 .navbar-respo{
     display: none;
 }
@@ -567,6 +563,7 @@ a{
 
 .main_product_img{
     width: 250px;
+    height: 260px;
 
 }
 .main_p_h1{
@@ -931,3 +928,6 @@ body {
     width: 100%;
   }
 }
+
+/* testimonial */
+
