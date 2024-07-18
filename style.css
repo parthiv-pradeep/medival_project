@@ -31,6 +31,7 @@
   color: white;
   opacity: 10;
   position: absolute;
+  animation: none;
 }
 
 .whatsapp-chat #whatsapp-icon {
@@ -46,7 +47,6 @@
   bottom: 20px;
   right: 20px;
   border: none;
-  position :relative;
 }
 
 #chat-box {
@@ -103,8 +103,8 @@
   align-items: center;
   padding: 10px;
   font-weight: 800;
-  margin-bottom: 10px;
-  margin-right: 5px;
+  margin-bottom: 20px;
+  margin-right: 12px;
   box-shadow: 0px 5px 1px #075e54;
 }
 
@@ -305,6 +305,12 @@ a{
     z-index: 1;
     color: royalblue;
     font-size: 18px;
+}
+
+.category_card .fa-solid:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: translateX(5px);
 }
 
 .navbar-respo{
@@ -750,7 +756,8 @@ a{
     align-items: center;
 }
 .product_img{
-    width: 280px;
+    width: 260px;
+    height: 270px;
 
 }
 .product_name{
@@ -825,6 +832,91 @@ a{
 }
 
 /* team css */
+.teamcontainer{
+  margin-top: 50px;
+  background-color:white;
+  margin-bottom: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.team_h1{
+  font-size: 40px;
+
+}
+.team_upper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.team_members{
+  width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.team_card{
+  margin-top: 50px;
+  /* box-shadow: 0px 0px 2px grey; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 350px;
+  width: 250px;
+  /* border-radius: 10px; */
+  border: none;
+}
+.team_card:hover{
+  box-shadow: 0px 0px 5px rgb(202, 200, 200);
+  transition: 2s;
+  transform: scale(1);
+}
+.team_img{
+  border-radius: 50%;
+  width: 200px;
+}
+.team_name_h6{
+  font-size: 20px;
+}
+
+.teamdiv{
+  margin-top: 50px;
+}
+.team_position{
+  font-weight: 500;
+  color: #595858;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.team_upper_h1{
+  color: #595858;
+    font-size: 28px;
+}
+
+
+@media only screen and (max-width: 710px){
+
+  .team_upper_h1{
+    color: #595858;
+      font-size: 24px;
+  }
+  .team_h1{
+    font-size: 35px;
+  
+  }
+  .team_name_h6{
+    font-size: 16px;
+  }
+  .team_position{
+    font-size: 13px;
+  }
+}
 
 
  

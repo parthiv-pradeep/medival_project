@@ -1,23 +1,24 @@
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission
-
-    // Collect the form data
-    const formData = {
-        to_email: 'thinkingwallflower@gmail.com',
-        from_name: event.target.from_name.value,
-        from_email: event.target.from_email.value,
-        reply_to: event.target.from_email.value,
-        phone: event.target.phone.value,
-        query: event.target.query.value
+function sendMail() {
+    var params = {
+      from_name: document.getElementById("from_name").value,
+      from_email: document.getElementById("from_email").value,
+      phone: document.getElementById("phone").value,
+      query: document.getElementById("query").value,
     };
-
-    // Send the form data using EmailJS
-    emailjs.send(service_tj20qpq, template_kllv78r, formData)
-        .then(function(response) {
-            console.log('SUCCESS!', response.status, response.text);
-            alert('Your message has been sent successfully!');
-        }, function(error) {
-            console.log('FAILED...', error);
-            alert('Failed to send your message. Please try again later.');
-        });
-});
+  
+    const serviceID = "service_tj20qpq";
+    const templateID = "template_kllv78r";
+  
+      emailjs.send(serviceID, templateID, params)
+      .then(res=>{
+          document.getElementById("from_name").value = "";
+          document.getElementById("from_email").value = "";
+          document.getElementById("phone").value = "";
+          document.getElementById("query").value = "";
+          console.log(res);
+          alert("Your message sent successfully!!")
+  
+      })
+      .catch(err=>console.log(err));
+  
+  }  
