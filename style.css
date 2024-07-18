@@ -31,6 +31,7 @@
   color: white;
   opacity: 10;
   position: absolute;
+  animation: none;
 }
 
 .whatsapp-chat #whatsapp-icon {
@@ -46,7 +47,6 @@
   bottom: 20px;
   right: 20px;
   border: none;
-  position :relative;
 }
 
 #chat-box {
@@ -103,8 +103,8 @@
   align-items: center;
   padding: 10px;
   font-weight: 800;
-  margin-bottom: 10px;
-  margin-right: 5px;
+  margin-bottom: 20px;
+  margin-right: 12px;
   box-shadow: 0px 5px 1px #075e54;
 }
 
@@ -306,7 +306,7 @@ a{
     color: royalblue;
     font-size: 18px;
 }
-.fa-solid:hover{
+.category_card .fa-solid:hover{
     cursor: pointer;
     transition: 1s;
     transform: translateX(5px);
