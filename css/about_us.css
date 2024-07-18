@@ -23,29 +23,7 @@ p{
     padding: 50px 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-/* about us fixed */
-.about-us-fixed {
-    font-size: 20px;
-    position: fixed;
-    display: flex;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-    background-color: #f5f5f5;
-    border-radius: 0 0 30px 30px;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    padding: 0 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 1px double black;
-    border-top: none;
-}
-.about-us-fixed h1{
-    color: #0c87c0;
-    font-weight: 500;
-}
+
 /*hero section*/
 .hero-section {
     position: relative;
@@ -53,20 +31,25 @@ p{
     width: auto;
     min-height: 600px;
 }
+
+.hero-image-container {
+    object-fit: contain;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero-image-container img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    font-style: italic;
-    background-repeat: no-repeat;
-    background-size: cover;
-    shape-margin: 1rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .hero-text {
-    color: black;
     position: absolute;
-    top:30%;
-    left: 25%;
+    top:20%;
+    left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
     border-radius: 5px;
@@ -74,18 +57,20 @@ p{
     height: fit-content;
     width: fit-content;
     line-height: normal;
+    padding: 10px;
+    background-color: #1b232e96;
+    border-radius: 5px;
+    opacity: 1;
 }
 .hero-text h1{
     font-size: 50px;
     font-weight: 1000px;
     font-style: italic;
-    color: black;
 }
 .hero-heading {
-    color: black;
+    color: white;
 }
 .hero-text h2{
-    color: black;
     font-weight: normal;
     font-size: 30px;
     font-style: italic;
