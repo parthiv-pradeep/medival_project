@@ -12,7 +12,11 @@
 
 .whatsapp-chat .fa-whatsapp {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
+}
+
+#whatsapp-icon:active {
+  animation: rotate-fade 1s linear 0ms 1 normal both;
 }
 
 .whatsapp-chat #chat-box .fa-whatsapp {
@@ -27,7 +31,7 @@
 }
 
 .whatsapp-chat .fa-xmark {
-  font-size: 30px;
+  font-size: 22px;
   color: white;
   opacity: 10;
   position: absolute;
@@ -37,8 +41,8 @@
 .whatsapp-chat #whatsapp-icon {
   background-color: #25d366;
   border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  height: 45px;
+  width: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,6 +66,7 @@
   bottom: 90px;
   display: none;
   right: 20px;
+  animation: chat-motion 150ms linear 0ms 1 normal both;
 }
 
 .whatsapp-chat #chat-box .chat-header {
@@ -118,19 +123,71 @@
 }
 
 @keyframes  rotate-fade {
-  from {
+  10% {
     opacity: 10;
-    transform: rotate(0deg);
+    transform: rotate(40deg);
   }
 
+  20% {
+    opacity: 6;
+    transform: rotate(80deg);
+  }
+
+  30% {
+    opacity: 4;
+    transform: rotate(120deg);
+  }
+
+  40% {
+    opacity: 2;
+    transform: rotate(160deg);
+  }
   50% {
     opacity: 5;
-    transform: rotate(45deg);
+    transform: rotate(200deg);
+  }
+
+  60% {
+    opacity: 7;
+    transform: rotate(240deg);
+  }
+
+  70% {
+    opacity: 9;
+    transform: rotate(280deg);
+  }
+
+  80% {
+    opacity: 10;
+    transform: rotate(320deg);
   }
 
   to {
+    opacity: 10;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes chat-motion {
+  from {
     opacity: 0;
-    transform: rotate(90deg);
+    transform: translateY(80px);
+  }
+  25% {
+    opacity: 2.5;
+    transform: translateY(60px);
+  }
+  50% {
+    opacity: 5;
+    transform: translateY(40px);
+  }
+  75% {
+    opacity: 7.5;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 10;
+    transform: translateY(0);
   }
 }
 
