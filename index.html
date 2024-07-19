@@ -37,11 +37,14 @@
         <div class="logo">
             <img src="media/medival_logo.png" alt="" class="logo_img">
         </div>
-        <div class="navbar">
-            <li class="navlinks"><a href="./index.html">Home</a></li> 
-            <li class="navlinks"><a href="./about-us.html">About us</a></li> 
-            <li class="navlinks"><a href="./team.html">Team</a></li> 
-            <li class="navlinks"><a href="./contact_us.html">Contact</a></li>               
+
+        <div class="dropdown-respo">
+            <select name="products" class="product-dropdown">
+                <option value="Medical"><a href="./about-us.html">Medical</a></option>
+                <option value="Medical"><a href="">Dental</a></option>
+                <option value="Medical"><a href="">CSSD</a></option>
+                <option value="Medical"><a href="">House Keeping</a></option>
+            </select>
         </div>
 
         <!-- navbar for responsive -->
@@ -52,6 +55,22 @@
             <li class="navlinks_respo"><a href="./contact_us.html">Contact</a></li>               
         </div>
 
+        <!-- desktop navbar -->
+        <div class="navbar">
+            <li class="navlinks"><a href="./index.html">Home</a></li> 
+            <li class="navlinks"><a href="./about-us.html">About us</a></li> 
+            <li class="navlinks">
+                <select name="products" class="product-dropdown">
+                    <option value="products">Products</option>
+                    <option value="Medical">Medical</option>
+                    <option value="Dental">Dental</option>
+                    <option value="CSSD">CSSD</option>
+                    <option value="House-keeping">House Keeping</option>
+                </select>
+            </li> 
+            <li class="navlinks"><a href="./team.html">Team</a></li> 
+            <li class="navlinks"><a href="./contact_us.html">Contact</a></li>               
+        </div>
         
         <div class="catalogue">
             <button class="catalogue_btn">Catalogue</button>
