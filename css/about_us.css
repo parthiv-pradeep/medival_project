@@ -33,7 +33,7 @@ p{
 }
 
 .hero-image-container {
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
     height: 60vh;
     display: flex;
@@ -196,6 +196,9 @@ p{
     }
     #mission-image {
         order: 1;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
     }
     #mission-description {
         order: 2;
