@@ -570,6 +570,7 @@ a{
     flex-direction: column;
     position: static;
     margin: 0;
+    height: fit-content;
   }
 
   .about--us .image-container {
