@@ -17,7 +17,7 @@ body {
 
 .fa-solid{
     z-index: 1;
-    color: royalblue;
+    color: #564973;
     font-size: 18px;
 }  
 
@@ -117,7 +117,7 @@ body {
 
 /* main heading */
 .main-heading {
-    background-color: royalblue;
+    background-color: #564973;
     color: white;
     display: flex;
     align-items: center;
@@ -208,7 +208,7 @@ body {
 }
 
 .contact-info .info-box {
-    background-color: royalblue;
+    background-color: #564973;
     color: white;
     padding: 30px;
     text-align: center;
@@ -549,7 +549,7 @@ a{
 .accordian {
     padding: 15px 20px 15px 20px;
     margin-bottom: 10px;
-    background-color: royalblue;
+    background-color: #564973;
     color: white;
     border-radius: 4px;
     cursor: pointer;
@@ -569,7 +569,7 @@ a{
 .visit-us {
     display: flex;
     flex-direction: column;
-    background-color: royalblue;
+    background-color: #564973;
     color: white;
     transition: transform 3s;
 }
@@ -675,7 +675,7 @@ a{
     font-size: 18px;
     font-weight: 500;
     text-decoration: underline;
-    text-decoration-color: royalblue;
+    text-decoration-color: #564973;
 }
 .footer_categories{
     display: flex;
@@ -698,7 +698,7 @@ a{
     font-size: 18px;
     font-weight: 500;
     text-decoration: underline;
-    text-decoration-color: royalblue;
+    text-decoration-color: #564973;
 }
 /* .fa-location-dot{
     font-size: 24px;
@@ -712,7 +712,7 @@ a{
 }
 .adress p{
     font-size: 13px;
-    color: royalblue;
+    color: #564973;
 }
 .add_text{
     text-align: left;
@@ -739,7 +739,7 @@ a{
 }
 .contact_mail i{
     font-size: 22px;
-    color: royalblue;
+    color: #564973;
 }
 
 @media only screen and (max-width: 710px) {

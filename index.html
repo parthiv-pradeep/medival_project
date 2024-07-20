@@ -14,6 +14,8 @@
 
 </head>
 <body>
+
+    <!-- whatsapp toggle -->
     <div class="whatsapp-chat">
         <div id="chat-box">
             <div class="chat-header">
@@ -47,13 +49,42 @@
             </div>
              
         </div>
-    </section>
-    <div class="navbar-respo">
-        <li class="navlinks_respo"><a href="./index.html">Home</a></li> 
-        <li class="navlinks_respo"><a href="./about-us.html">About us</a></li> 
-        <li class="navlinks_respo"><a href="./team.html">Team</a></li> 
-        <li class="navlinks_respo"><a href="./contact_us.html">Contact</a></li>               
+
+        <!-- navbar for responsive -->
+        <div class="navbar-respo" id="nav-bar-respo">
+            <div class="nav-head">
+                <div class="logo"><img src="./media/medival_logo.png" alt="Medieval"></div>
+                <div id="nav-bar-xmark"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+            <div class="nav-links"> 
+                <li class="navlinks_respo" id="top-resp-nav"><a href="./index.html">Home</a></li>
+                <li class="navlinks_respo"><a href="./about-us.html">About us</a></li>
+                <li class="navlinks_respo"><a href="">Medical</a></li>
+                <li class="navlinks_respo"><a href="">Dental</a></li>
+                <li class="navlinks_respo"><a href="">CSSD</a></li>
+                <li class="navlinks_respo"><a href="">House Keeping</a></li>
+                <li class="navlinks_respo"><a href="./team.html">Team</a></li>
+                <li class="navlinks_respo"><a href="./contact_us.html">Contact</a></li>
+                <li class="navlinks_respo"><a href="">Careers</a></li>
+            </div>              
+        </div>
+
+        <!-- desktop navbar -->
+        <div class="navbar">
+            <li class="navlinks"><a href="./index.html">Home</a></li> 
+            <li class="navlinks"><a href="./about-us.html">About us</a></li> 
+            <li class="navlinks"><a href="./team.html">Team</a></li> 
+            <li class="navlinks"><a href="./contact_us.html">Contact</a></li>               
+        </div>
+        
+        <div class="catalogue">
+            <button class="catalogue_btn">Catalogue</button>
+        </div>
+        <i class="fa-solid fa-bars" id="hamburger-menu"></i>
+            
     </div>
+
+    <!-- hero section -->
     <section class="home">
         <div class="main_container">
             <video autoplay loop muted plays-inline class="background_video" >
@@ -76,6 +107,8 @@
             
         </div>
     </section>
+
+    <!-- products section -->
     <section class="category">
          <h1 class="catagory_heading">
                 Products
@@ -131,10 +164,24 @@
           
         </div>
     </section>
+
+    <section class="about--us">
+        <div class="image-container">
+            <img src="./media/about-us/about_us_hero.jpg" alt="Group discussion">
+        </div>
+        <div class="about-us-text">
+            <h1 class="catagory_heading">About Us</h1>
+            <p>
+                Welcome to Medieval Medical Instruments Trading LLC, where precision and passion converge to elevate healthcare.
+                Located in the vibrant United Arab Emirates. Our mission is to empower healthcare professionals with top-notch
+                pharmaceuticals, medical supplies, and equipment, ensuring they have the tools they need to deliver exceptional care.
+            </p>
+        </div>
+    </section>
     
     <section class="service_section">
         <div class="row">
-          <h2 class="section-heading">Our Services</h2>
+          <h2 class="catagory_heading">Our Services</h2>
         </div>
         <div class="row">
             <h4 class="section_subheading">
@@ -210,21 +257,9 @@
               </p>
             </div>
           </div>
-          <!-- <div class="column">
-            <div class="card">
-              <div class="icon-wrapper">
-                <i class="fas fa-plug"></i>
-              </div>
-              <h3>Service Heading</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                consequatur necessitatibus eaque.
-              </p>
-            </div>
-          </div> -->
+         
         </div>
       </section>
-    
 
     <section class="products">
         <div class="p_head">
@@ -390,5 +425,8 @@
 
     <!-- whatsapp toggle -->
      <script src="./js/whatsapp_toggle.js"></script>
+
+    <!-- nav-bar motion -->
+     <script src="./js/nav-bar.js"></script>
 </body>
 </html>
