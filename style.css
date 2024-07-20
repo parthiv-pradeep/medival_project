@@ -16,7 +16,7 @@
 }
 
 #whatsapp-icon:active {
-  animation: rotate-fade 1s linear 0ms 1 normal both;
+  animation: rotate-fade 700ms linear 0ms 1 normal both;
 }
 
 .whatsapp-chat #chat-box .fa-whatsapp {
@@ -127,48 +127,11 @@
 }
 
 @keyframes  rotate-fade {
-  10% {
-    opacity: 10;
-    transform: rotate(40deg);
+  from{
+    transform: rotate(0deg);
   }
-
-  20% {
-    opacity: 6;
-    transform: rotate(80deg);
-  }
-
-  30% {
-    opacity: 4;
-    transform: rotate(120deg);
-  }
-
-  40% {
-    opacity: 2;
-    transform: rotate(160deg);
-  }
-  50% {
-    opacity: 5;
-    transform: rotate(200deg);
-  }
-
-  60% {
-    opacity: 7;
-    transform: rotate(240deg);
-  }
-
-  70% {
-    opacity: 9;
-    transform: rotate(280deg);
-  }
-
-  80% {
-    opacity: 10;
-    transform: rotate(320deg);
-  }
-
   to {
-    opacity: 10;
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
 
@@ -176,18 +139,6 @@
   from {
     opacity: 0;
     transform: translateY(80px);
-  }
-  25% {
-    opacity: 2.5;
-    transform: translateY(60px);
-  }
-  50% {
-    opacity: 5;
-    transform: translateY(40px);
-  }
-  75% {
-    opacity: 7.5;
-    transform: translateY(20px);
   }
   to {
     opacity: 10;
@@ -210,6 +161,7 @@
     margin: 0px auto;
     box-shadow: 0px 0px 5px rgba(100, 98, 98, 0.356);
     z-index: 1000;
+    border: 2px solid red;
 }
 
 .navbar{
@@ -225,27 +177,15 @@
     text-align: center;
     text-decoration: none;
     list-style: none;
-
-
 }
-.product-dropdown {
+
+.nav .dropdown {
+  
   width: 90px;
   border: 2px solid #14013c;
   color: #14013c;
   font-size: medium;
   border-radius: 5px;
-}
-
-.dropdown-respo {
-  margin-top: 30px;
-}
-
-.dropdown-respo select {
-  height: 40px;
-}
-
-.product-dropdown:focus {
-  outline: none;
 }
 
 .navlinks a{
@@ -314,7 +254,7 @@
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.12);
   background-color: #fafafa;
   position: absolute;
-  display: normal;
+  display: none;
   top: 0;
   right: -303px;
   border-radius: 12px;
@@ -353,6 +293,10 @@
     border-radius: 12px;
     list-style: none;
     text-align: center;
+}
+
+#hamburger-menu {
+  display: none;
 }
 
 @keyframes navbar-motion {
@@ -494,6 +438,10 @@ a{
 }
 
 @media only screen and (max-width: 710px) {
+
+    #hamburger-menu {
+      display: block;
+    }
 
     .navbar-respo {
       display: none;
