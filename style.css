@@ -229,7 +229,7 @@
  /* nav hover effect */
  .navbar  li a {
   position: relative;
-  transition: all 2s;
+  transition: all 400ms;
 }
 .navbar  li a:after {
   position: absolute;
@@ -246,7 +246,7 @@
 
 .navbar  li a:hover:after {
   width: 100%;
-  transition: all 1s;
+  transition: all 400ms;
  
 }
 
