@@ -212,12 +212,6 @@
     z-index: 1000;
 }
 
-.navbar-respo{
-  padding: 5px;
-  display: none;
-  position: fixed;
-}
-
 .navbar{
     z-index: 1;
     display: flex;
@@ -259,6 +253,7 @@
     margin: 0px 30px;
     text-decoration: none;
 }
+
  /* nav hover effect */
  .navbar  li a {
   position: relative;
@@ -305,6 +300,77 @@
     border: none;
     border-radius: 5px;
     padding: 10px 30px;
+}
+
+/* navbar respo */
+.navbar-respo{
+  margin: 7px auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  height: fit-content;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.12);
+  background-color: #fafafa;
+  position: absolute;
+  display: normal;
+  top: 0;
+  right: -303px;
+  border-radius: 12px;
+  animation: navbar-motion 300ms linear 0ms 1 normal both;
+  z-index: 1000;
+}
+
+.nav-head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links {
+  background-color: #564973;
+  border-radius: 0 0 12px 12px;
+}
+
+.nav-links a {
+  color: white;
+}
+
+.navlinks_respo:hover{
+  background-color: white;
+}
+
+.navlinks_respo:hover a{
+  color: #14013c;
+}
+
+.navlinks_respo{
+    display: flex;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.12);
+    padding: 15px;
+    justify-content: space-around;
+    border-radius: 12px;
+    list-style: none;
+    text-align: center;
+}
+
+@keyframes navbar-motion {
+  from{
+    transform: translateX(0px);
+  }
+  to{
+    transform: translateX(-303px);
+  }
+}
+
+@keyframes navbar-motion-rev {
+  from{
+    transform: translateX(0px);
+  }
+  to{
+    transform: translateX(320px);
+  }
 }
 
 /* home content */
@@ -428,6 +494,11 @@ a{
 }
 
 @media only screen and (max-width: 710px) {
+
+    .navbar-respo {
+      display: none;
+    }
+
     .navbar{
         display: none;
     }
@@ -479,22 +550,7 @@ a{
     .catagory_heading{
         font-size: 37px;
     }
-    .navbar-respo{
-        margin: 7px auto;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        width: 100vw;
-        top: 60px;
-    }
-    .navlinks_respo{
-        display: flex;
-        justify-content: space-around;
-        margin: 0.6rem;
-        list-style: none;
-        text-align: center;
-    }
+ 
     .navlinks_respo a{
         font-size: 16px;
         text-decoration: none;
@@ -513,9 +569,13 @@ a{
     }
 
     .nav {
-      padding-bottom: 20px;
-      box-sizing: none;
-      height: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .nav .logo-desktop {
+      display: none;
     }
 }
 
