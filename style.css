@@ -216,8 +216,6 @@
   padding: 5px;
   display: none;
   position: fixed;
-  top: 
-  background-color: white;
 }
 
 .navbar{
@@ -356,7 +354,7 @@
 }
 .home_p{
     color: rgb(24, 4, 48);
-    width: 90vw;
+    width: 50vw;
     text-align: left;
     font-size: 22px;
     line-height: 3rem;
@@ -388,7 +386,7 @@
 
 }
 .category_card:hover {
-    transition: 1s;
+    transition: 400ms;
     background-color: royalblue;
 }
 .category_card:hover .icon i{
@@ -422,12 +420,6 @@ a{
     z-index: 1;
     color: royalblue;
     font-size: 18px;
-}
-
-.category_card .fa-solid:hover{
-    cursor: pointer;
-    transition: 1s;
-    transform: translateX(5px);
 }
 
 .nav select {
@@ -525,6 +517,76 @@ a{
       box-sizing: none;
       height: fit-content;
     }
+}
+
+/* About us */
+.about--us  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 700px;
+  box-sizing: none;
+  margin: 50px;
+}
+
+.about--us .image-container {
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  left: 18%;
+  top: 0;
+  border-radius: 12px;
+}
+
+.about--us .image-container img {
+  width: 100%;
+  object-position: bottom;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.about-us-text {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  bottom: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  right: 15%;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  position: absolute;
+}
+
+@media screen and (max-width:760px) {
+
+  .about--us {
+    flex-direction: column;
+    position: static;
+    margin: 0;
+  }
+
+  .about--us .image-container {
+    position: static;
+    width: 85%;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .about--us .image-container img {
+    border-radius: 12px 12px 0 0;
+  }
+
+  .about--us .about-us-text {
+    position: static;
+    border-radius: 0 0 12px 12px;
+    width: 85%;
+  }
 }
 
 /* foooter design */
