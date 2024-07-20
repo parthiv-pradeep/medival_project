@@ -13,7 +13,7 @@ body{
     overflow-x: hidden;
 }
 h1, h2, h3 {
-    color: royalblue;   
+    color: #564973;   
 }
 p{
     color: #444;
@@ -171,7 +171,7 @@ p{
 }
 .description:hover:after{
     content: '';
-    background-color: royalblue;
+    background-color: #564973;
     height: 2px;
     width: 100%;
     position: absolute;
@@ -208,7 +208,7 @@ p{
         border-radius: 8px 8px 0 0;
     }
     .description{
-        border-bottom: 2px solid royalblue;
+        border-bottom: 2px solid #564973;
         margin-top: 0;
     }
 }
@@ -220,7 +220,7 @@ p{
 
 /* Our values */
 #our-values {
-    background-color: royalblue;
+    background-color: #564973;
     color: white;
     display: flex;
     flex-direction: column;
@@ -245,11 +245,11 @@ p{
     padding: 15px;
 }
 .value h2{
-    color: royalblue;
+    color: #564973;
 } 
 .value:hover{
     box-shadow: 4px 7px 7px 0px rgba(0, 0, 0, 0.1);
-    background-color: rgb(82, 119, 228);
+    background-color: #6b5991;
     color: white;
     transition: all 0.3s ease;
 }
@@ -268,7 +268,7 @@ p{
 
 /*icons*/
 .material-symbols-outlined {
-    color: royalblue;
+    color: #564973;
 }
 
 /* divider line */
@@ -285,7 +285,7 @@ p{
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: royalblue;
+    background-color: #564973;
 }
 .blockquote {
     width: 70%;
@@ -310,7 +310,7 @@ p{
     content: "\201c";
     font-family: Gelasio, sans-serif;
     font-size: 100px;
-    color: royalblue;
+    color: #564973;
     display: block;
     margin-bottom: -70px;
     margin-top: -20px;
