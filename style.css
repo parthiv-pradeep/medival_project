@@ -197,6 +197,7 @@
  /* nav hover effect */
  .navbar  li a {
   position: relative;
+  transition: all 400ms;
 }
 
 .navbar  li a:after {
@@ -215,6 +216,7 @@
 .navbar  li a:hover:after {
   width: 100%;
   transition: all 400ms;
+ 
 }
 
 
@@ -413,8 +415,8 @@
     margin:20px
 }
 .name h5{
-    color: #564973;
-    font-size: 19px;
+    color: royalblue;
+    font-size: 18px;
 }
 
 .content{
@@ -494,6 +496,9 @@ a{
     }
     .name h5{
         font-size: 15px;
+    }
+    .medical_category_h5 h5{
+      font-size: 13px;
     }
     .catagory_heading{
         font-size: 37px;
@@ -1168,6 +1173,9 @@ h4{
     margin-top: 30px;
   }
 }
+
+/* medical product page */
+
 
 
 
