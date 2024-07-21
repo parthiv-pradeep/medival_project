@@ -148,10 +148,11 @@
 
 /* home */
 .home{
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .nav{
     position: fixed;
+    top: 0px;
     background-color: #ffff;
     width: 100vw;
     height: 100px;
