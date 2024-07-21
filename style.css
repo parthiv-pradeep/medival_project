@@ -161,7 +161,6 @@
     margin: 0px auto;
     box-shadow: 0px 0px 5px rgba(100, 98, 98, 0.356);
     z-index: 1000;
-    border: 2px solid red;
 }
 
 .navbar{
@@ -180,12 +179,62 @@
 }
 
 .nav .dropdown {
-  
-  width: 90px;
-  border: 2px solid #14013c;
+  height: fit-content;
+  width: 160px;
+  transform: translateX(-50%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
   color: #14013c;
   font-size: medium;
-  border-radius: 5px;
+  border-radius: 3px;
+  position: absolute;
+  top: 19px;
+  background-color: #564973;
+  left: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+  display: none;
+}
+
+.nav .dropdown a {
+  color: white;
+}
+
+.nav #product-dropdown {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  margin: 0 30px;
+}
+
+.nav #product-dropdown #product-links {
+  color: #14013c;
+}
+
+.nav #product-dropdown:hover .dropdown, .nav .dropdown:hover{
+  display: block;
+}
+
+.nav #product-dropdown .dropdown a{
+  width: 100%;
+}
+
+.nav .dropdown .category {
+  list-style: none;
+  padding: 10px;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.308);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .dropdown .category:hover {
+  background-color: white;
+}
+
+.nav .dropdown .category:hover a{
+  color: #564973;
 }
 
 .navlinks a{
@@ -195,12 +244,12 @@
 }
 
  /* nav hover effect */
- .navbar  li a {
+ .navbar  .navlinks a {
   position: relative;
   transition: all 400ms;
 }
 
-.navbar  li a:after {
+.navbar .navlinks a:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -213,7 +262,7 @@
   height: 2px;
 }
 
-.navbar  li a:hover:after {
+.navbar  .navlinks a:hover:after {
   width: 100%;
   transition: all 400ms;
  
@@ -439,10 +488,14 @@ a{
   text-decoration: none;
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 1000px) {
 
     #hamburger-menu {
       display: block;
+    }
+
+    .nav .dropdown {
+      display: none;
     }
 
     .navbar-respo {
