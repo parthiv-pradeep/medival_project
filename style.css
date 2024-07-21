@@ -412,10 +412,10 @@
     width: 85vw;
     font-size: 43px;
     line-height: 4rem;
-    color: rgb(24, 4, 48);
+    color: rgb(242, 242, 243);
 }
 .home_p{
-    color: rgb(24, 4, 48);
+    color: rgb(254, 254, 255);
     width: 50vw;
     text-align: left;
     font-size: 22px;
@@ -993,7 +993,7 @@ a{
     justify-content:space-evenly;
     align-items: center;
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #d3d2d2;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
