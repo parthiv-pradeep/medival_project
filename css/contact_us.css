@@ -13,6 +13,7 @@ body {
     font-family: poppins, sans-serif;
     background-color: rgb(244, 252, 255);
     overflow-x: hidden;
+    position: static;
 } 
 
 .fa-solid{

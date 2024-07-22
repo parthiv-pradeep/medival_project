@@ -147,11 +147,12 @@
 }
 
 /* home */
-.home{
+/* .home{
     overflow: hidden;
-}
+} */
 .nav{
     position: fixed;
+    top: 0;
     background-color: #ffff;
     width: 100vw;
     height: 100px;
@@ -317,6 +318,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 20px 0;
 }
 
 .nav-links {
@@ -590,7 +592,6 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   min-height: 700px;
   box-sizing: none;
   margin: 50px;
@@ -599,10 +600,7 @@ a{
 .about--us .image-container {
   width: 50%;
   height: fit-content;
-  position: absolute;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  left: 18%;
-  top: 0;
   border-radius: 12px;
 }
 
@@ -617,17 +615,15 @@ a{
 .about-us-text {
   display: flex;
   flex-direction: column;
-  width: 55%;
+  width: 30%;
+  height: 50vh;
   justify-content: center;
   align-items: center;
   background-color: #f5f5f5;
-  bottom: 0;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  right: 15%;
   color: #333;
   padding: 20px;
   border-radius: 12px;
-  position: absolute;
 }
 
 @media screen and (max-width:760px) {
