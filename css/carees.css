@@ -20,8 +20,9 @@ body{
 }
 
 .hero p{
-    width: 60vw;
+    width: 90vw;
     font-size: 15px;
+    text-align: center;
 }
 
 /* open position */
