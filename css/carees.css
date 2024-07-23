@@ -21,7 +21,7 @@ body{
 
 .hero p{
     width: 60vw;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 /* open position */
@@ -33,12 +33,13 @@ body{
     background-color: #564793d7;
     color: #fff;
     padding: 20px;
-    width: fit-content;
+    width: 70vw;
     transform: translate(-50%);
     border-radius: 15px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
     margin: 80px 0;
     margin-left: 50%;
+    flex-wrap: wrap;
 }
 
 .open-position i{
@@ -54,6 +55,7 @@ h3{
     align-items: center;
     justify-content: center;
     width: fit-content;
+    flex-wrap: wrap;
 }
 
 .descriptions .description{

@@ -670,13 +670,13 @@ a{
 /* foooter design */
 
 .footermain{
-    
     padding: 40px 0px;
     height: 60vh;
     background-color: #fff;
     display: flex;
     flex-direction: column;
 }
+
 .footer_top{
     display: flex;
     justify-content: space-evenly;
@@ -788,6 +788,7 @@ a{
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    background-color: white;
 }
 .adress p{
     font-size: 13px;
@@ -821,6 +822,10 @@ a{
     color: #564973;
 }
 
+.footermain{
+  background-color: white;
+}
+
 @media only screen and (max-width: 710px) {
 
 
@@ -832,6 +837,8 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    padding-left: 30px;
+    background-color: white;
 }
 
 
@@ -847,29 +854,35 @@ a{
    
 }
 .footer{
-    margin: 0px 30px;
     text-align: left;
     height: 100vh;
+    background-color: white;
 }
 .Quick_links{
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
+
 .footer_categories{
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .adress{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     text-align: left;
+    background-color: white;
 }
 .footer_bottom{
     height: 50vh;
+    background-color: white;
+    width: 100%;
 }
 .copyright{
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .social_media{
-    margin: 30px;
+    padding: 30px;
 }
+
+
 
 }
 
@@ -1047,11 +1060,21 @@ a{
   margin-top: 50px;
   background-color:white;
   padding-bottom: 65px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
+
+.teamcontainer h1{
+  color: #222;
+}
+
+#team-description{
+  max-width: 60%;
+}
+
 .team_h1{
   font-size: 40px;
 
