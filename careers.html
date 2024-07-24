@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Careers Medieval</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/3f8621b75f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
@@ -118,7 +119,7 @@
                     <i class="material-symbols-outlined">edit_square</i>
                     <h2>Contact Form</h2>
                 </div>
-                <form id="contact-form">
+                <form id="submit-form" enctype="multipart/form-data" action="">
                     <div class="form-attribute">
                         <label for="from_name">Name</label>
                         <input type="text" id="from_name" name="from_name" required>
@@ -237,5 +238,33 @@
 
     <!-- for whatsapp toggle -->
      <script src="./js/whatsapp_toggle.js"></script>
+
+     <!-- form submission through gform -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $("#submit-form").submit((e) => {
+    e.preventDefault();
+
+    // Create a new FormData object from the form element
+    var formData = new FormData(document.getElementById("submit-form"));
+
+    $.ajax({
+      url: "https://script.google.com/macros/s/AKfycbwJUgxvhtSobA1K6GqJBpsBA05D74Aw-pw2JRCZWWzk4o4looCqlXLCHXy3H95XpVPMZw/exec",
+      data: formData,
+      method: "POST",
+      processData: false,
+      contentType: false,
+      success: function(response) {
+        alert("Form submitted successfully");
+        window.location.reload();
+      },
+      error: function(err) {
+        alert("Something went wrong");
+      }
+    });
+  });
+</script>
+
+
 </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Medieval</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/contact_us.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -129,7 +130,7 @@
                 <i class="material-symbols-outlined">edit_square</i>
                 <h2>Contact Form</h2>
             </div>
-            <form id="contact-form">
+            <form id="submit-form" action="" >
                 <div class="form-attribute">
                     <label for="from_name">Name</label>
                     <input type="text" id="from_name" name="from_name" required>
@@ -151,7 +152,7 @@
             </form>
         </div>
         <div class="form-img">
-            <img src="./media/form-pic.jpg" alt="medical form ">
+            <img src="./media/form-pic.jpg" alt="medical form">
             <!-- follow us -->
             <div class="follow-us_section">
                 <h2>Follow Us</h2>
@@ -237,7 +238,7 @@
                         </div>
                         <div class="adress">
                             <h1 class="footer_cat_head same">Contact info</h1> <br>
-                            <div class="ad_icon"><i class="fa-solid         fa-location-dot"></i><p>UAE,Darusala Complex <br> 766638</p></div>
+                            <div class="ad_icon"><i class="fa-solid fa-location-dot"></i><p>UAE,Darusala Complex <br> 766638</p></div>
                             <br>
                             
                             <div class="add_text"></div>
@@ -280,5 +281,27 @@
 
     <!-- nav-bar motion -->
      <script src="./js/nav-bar.js"></script>
+
+     <!-- form submission through gform -->
+     <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbz8tUyxtYxHsG-APVW3muIDzaLItD9syTv55y2B0o7hjbeAYFtrCgo0RPD9dd-3agGaRg/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+
 </body>
 </html>
