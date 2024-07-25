@@ -4,42 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Medieval</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/contact_us.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="./stye.css">
+    <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/3f8621b75f.js" crossorigin="anonymous"></script>
     
 
 </head>
 <body>
-    <!-- nav bar -->
-    <div class="nav">
-        <div class="logo">
-            <img src="media/medival_logo.png" alt="" class="logo_img">
-        </div>
-        <div class="navbar">
-            <li class="navlinks"><a href="./index.html">Home</a></li> 
-            <li class="navlinks"><a href="./about-us.html">About us</a></li> 
-            <li class="navlinks"><a href="./team.html">Team</a></li> 
-            <li class="navlinks"><a href="./contact_us.html">Contact</a></li>               
-        </div>
-       
-        <div class="catalogue">
-            <button class="catalogue_btn">Catalogue</button>
-        </div>
-         
-    </div>
-    <div class="navbar-respo">
-            <li class="navlinks_respo"><a href="./index.html">Home</a></li> 
-            <li class="navlinks_respo"><a href="./about-us.html">About us</a></li> 
-            <li class="navlinks_respo"><a href="./team.html">Team</a></li> 
-            <li class="navlinks_respo"><a href="./contact_us.html">Contact</a></li>               
-    </div>
 
+        <!-- whatsapp toggle -->
+        <div class="whatsapp-chat">
+            <div id="chat-box">
+                <div class="chat-header">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <h3>Medieval</h3>
+                </div>
+                <div class="chat-body">
+                    <p>Hi there! <br>How can we help you?</p>
+                </div>
+                <div class="chat-button">
+                    <button>chat<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <button id="whatsapp-icon"><i class="fa-brands fa-whatsapp"></i></button>
+        </div>
+        <section class="home">
+            <div class="nav">
+                <!-- navbar for responsive -->
+                <div class="navbar-respo" id="nav-bar-respo">
+                    <div class="nav-head">
+                        <div class="nav-respo-btn"><button class="catalogue_btn">Catalogue</button></div>
+                        <div id="nav-bar-xmark"><i class="fa-solid fa-xmark"></i></div>
+                    </div>
+                    <div class="nav-links"> 
+                        <li class="navlinks_respo" id="top-resp-nav"><a href="./index.html">Home</a></li>
+                        <li class="navlinks_respo"><a href="./about-us.html">About us</a></li>
+                        <li class="navlinks_respo"><a href="./medical.html">Medical</a></li>
+                        <li class="navlinks_respo"><a href="./dental.html">Dental</a></li>
+                        <li class="navlinks_respo"><a href="./cssd.html">CSSD</a></li>
+                        <li class="navlinks_respo"><a href="./housekeeping.html">House Keeping</a></li>
+                        <li class="navlinks_respo"><a href="./team.html">Team</a></li>
+                        <li class="navlinks_respo"><a href="./contact_us.html">Contact</a></li>
+                        <li class="navlinks_respo"><a href="./careers.html">Careers</a></li>
+                    </div>              
+                </div>
+    
+                <!-- desktop navbar -->
+                <div class="logo"><img src="./media/medival_logo.png" alt="Medieval"></div>
+                <div class="navbar">
+                    <li class="navlinks"><a href="./index.html">Home</a></li> 
+                    <li class="navlinks"><a href="./about-us.html">About us</a></li> 
+                    <div id="product-dropdown"><a id="product-links" href="">Products</a>
+                        <div class="dropdown">
+                            <li class="category"><a href="./medical.html">Medical</a></li>
+                            <li class="category"><a href="./dental.html">Dental</a></li>
+                            <li class="category"><a href="./cssd.html">CSSD</a></li>
+                            <li class="category"><a href="./housekeeping.html">House Keeping</a></li>
+                        </div>
+                    </div>
+                    <li class="navlinks"><a href="./team.html">Team</a></li> 
+                    <li class="navlinks"><a href="./contact_us.html">Contact</a></li>  
+                    <li class="navlinks"><a href="./careers.html">Careers</a></li>             
+                </div>
+    
+                <div class="catalogue">
+                    <button class="catalogue_btn">Catalogue</button>
+                </div>
+                <i class="fa-solid fa-bars" id="hamburger-menu"></i>
+                    
+            </div>     
+        </section>
     <!-- heading -->
      <div class="main-heading">
 
@@ -86,33 +126,33 @@
     <!-- form section -->
     <div class="form-section">
         <div class="form-container">
-    <div class="form-heading">
-        <i class="material-symbols-outlined">edit_square</i>
-        <h2>Contact Form</h2>
-    </div>
-    <form id="contact-form">
-        <div class="form-attribute">
-            <label for="from_name">Name</label>
-            <input type="text" id="from_name" name="from_name" required>
+            <div class="form-heading">
+                <i class="material-symbols-outlined">edit_square</i>
+                <h2>Contact Form</h2>
+            </div>
+            <form id="submit-form" action="" >
+                <div class="form-attribute">
+                    <label for="from_name">Name</label>
+                    <input type="text" id="from_name" name="from_name" required>
+                </div>
+                <div class="form-attribute">
+                    <label for="from_email">Email</label>
+                    <input type="email" id="from_email" name="from_email" required>
+                </div>
+                <div class="form-attribute">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-attribute" id="query-box">
+                    <label for="query">Query</label>
+                    <textarea class="query-textarea" id="query" name="query" rows="4" maxlength="200" required></textarea>
+                    <div id="char-count">0 / 200</div>
+                </div>
+                <button class="submit" type="submit">Submit</button>
+            </form>
         </div>
-        <div class="form-attribute">
-            <label for="from_email">Email</label>
-            <input type="email" id="from_email" name="from_email" required>
-        </div>
-        <div class="form-attribute">
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" required>
-        </div>
-        <div class="form-attribute" id="query-box">
-            <label for="query">Query</label>
-            <textarea class="query-textarea" id="query" name="query" rows="4" maxlength="200" required></textarea>
-            <div id="char-count">0 / 200</div>
-        </div>
-        <button class="submit" type="submit">Submit</button>
-    </form>
-</div>
         <div class="form-img">
-            <img src="./media/form-pic.jpg" alt="medical form ">
+            <img src="./media/form-pic.jpg" alt="medical form">
             <!-- follow us -->
             <div class="follow-us_section">
                 <h2>Follow Us</h2>
@@ -133,49 +173,6 @@
             </div>
         </div>
     </div>
-
-    <!-- FAQ's -->
-<div class="faq">
-    <h1>FAQ's</h1>
-    <div class="faq-container">
-      <div class="accordian">
-        <div class="question">
-          <h4>Q: How can I place an order?</h4>
-          <i class="icon material-symbols-outlined">arrow_drop_down</i>
-        </div>
-        <div class="answer">
-          A: You can place an order directly contact our customer service team for assistance/ E-MAIL
-        </div>
-      </div>
-      <div class="accordian">
-        <div class="question">
-          <h4>Q: Do you offer bulk discounts?</h4>
-          <i class="icon material-symbols-outlined">arrow_drop_down</i>
-        </div>
-        <div class="answer">
-          A: Yes, we offer special discounts for bulk orders. Please contact our sales team /Our mail ID for more information.
-        </div>
-      </div>
-      <div class="accordian">
-        <div class="question">
-          <h4>Q: How can I return a product?</h4>
-          <i class="icon material-symbols-outlined">arrow_drop_down</i>
-        </div>
-        <div class="answer">
-          A: If you are not satisfied with your purchase, you can return it within 30 days for a full refund. Please refer to our return policy for details.
-        </div>
-      </div>
-      <div class="accordian">
-        <div class="question">
-          <h4>Q: What are your delivery options?</h4>
-          <i class="icon material-symbols-outlined">arrow_drop_down</i>
-        </div>
-        <div class="answer">
-          A: We offer standard, express, and same-day delivery options in the case of emergency.
-        </div>
-      </div>
-    </div>
-  </div>  
 
     <!-- follow us -->
     <div class="follow-us_section_respo">
@@ -229,17 +226,19 @@
                             <li class="quicklink"><a href="./about-us.html">About us</a></li> 
                             <li class="quicklink"><a href="./team.html">Team</a></li> 
                             <li class="quicklink"><a href="./contact_us.html">Contact</a></li>     
+                            <li class="quicklink"><a href="./careers.html">Careers</a></li>    
                         </div>
                         <div class="footer_categories">
                             <h1 class="footer_cat_head">Category</h1>
-                            <li class="footer_cat"><a href="#">Medical</a></li> 
-                            <li class="footer_cat"><a href="#">Dental</a></li> 
-                            <li class="footer_cat"><a href="#">Veterinary</a></li> 
+                            <li class="footer_cat"><a href="./medical.html">Medical</a></li> 
+                            <li class="footer_cat"><a href="./dental.html">Dental</a></li> 
+                            <li class="footer_cat"><a href="./cssd.html">CSSD</a></li> 
+                            <li class="footer_cat"><a href="./housekeeping.html">house keeping</a></li>
                             
                         </div>
                         <div class="adress">
                             <h1 class="footer_cat_head same">Contact info</h1> <br>
-                            <div class="ad_icon"><i class="fa-solid         fa-location-dot"></i><p>UAE,Darusala Complex <br> 766638</p></div>
+                            <div class="ad_icon"><i class="fa-solid fa-location-dot"></i><p>UAE,Darusala Complex <br> 766638</p></div>
                             <br>
                             
                             <div class="add_text"></div>
@@ -277,7 +276,32 @@
     <!-- js file for to monitor max charecter in the query of form -->
     <script src="./js/max-char.js"></script>
 
-    <!-- js file for to faq accordian -->
-     <script src="./js/accordian.js"></script>
+    <!-- whatsapp toggle -->
+    <script src="./js/whatsapp_toggle.js"></script>
+
+    <!-- nav-bar motion -->
+     <script src="./js/nav-bar.js"></script>
+
+     <!-- form submission through gform -->
+     <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbz8tUyxtYxHsG-APVW3muIDzaLItD9syTv55y2B0o7hjbeAYFtrCgo0RPD9dd-3agGaRg/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+
 </body>
 </html>

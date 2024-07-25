@@ -14,43 +14,80 @@
 
 </head>
 <body>
-    <section class="home">
-        <div class="nav">
-            <div class="logo">
-                <img src="media/medival_logo.png" alt="" class="logo_img">
+        <!-- whatsapp toggle -->
+        <div class="whatsapp-chat">
+            <div id="chat-box">
+                <div class="chat-header">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <h3>Medieval</h3>
+                </div>
+                <div class="chat-body">
+                    <p>Hi there! <br>How can we help you?</p>
+                </div>
+                <div class="chat-button">
+                    <button>chat<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
             </div>
-            <div class="navbar">
-                <li class="navlinks"><a href="index.html">Home</a></li> 
-                <li class="navlinks"><a href="about-us.html">About us</a></li> 
-                <li class="navlinks"><a href="team.html">Team</a></li> 
-                <li class="navlinks"><a href="contact_us.html">Contact</a></li>               
-            </div>
-           
-            <div class="catalogue">
-                <button class="catalogue_btn">Catalogue</button>
-            </div>
-             
+            <button id="whatsapp-icon"><i class="fa-brands fa-whatsapp"></i></button>
         </div>
-        <div class="navbar-respo">
-                <li class="navlinks_respo"><a href="index.html">Home</a></li> 
-                <li class="navlinks_respo"><a href="about-us.html">About us</a></li> 
-                <li class="navlinks_respo"><a href="team.html">Team</a></li> 
-                <li class="navlinks_respo"><a href="contact_us.html">Contact</a></li>               
-        </div>
+        <section class="home">
+            <div class="nav">
+                <!-- navbar for responsive -->
+                <div class="navbar-respo" id="nav-bar-respo">
+                    <div class="nav-head">
+                        <div class="nav-respo-btn"><button class="catalogue_btn">Catalogue</button></div>
+                        <div id="nav-bar-xmark"><i class="fa-solid fa-xmark"></i></div>
+                    </div>
+                    <div class="nav-links"> 
+                        <li class="navlinks_respo" id="top-resp-nav"><a href="./index.html">Home</a></li>
+                        <li class="navlinks_respo"><a href="./about-us.html">About us</a></li>
+                        <li class="navlinks_respo"><a href="./medical.html">Medical</a></li>
+                        <li class="navlinks_respo"><a href="./dental.html">Dental</a></li>
+                        <li class="navlinks_respo"><a href="./cssd.html">CSSD</a></li>
+                        <li class="navlinks_respo"><a href="./housekeeping.html">House Keeping</a></li>
+                        <li class="navlinks_respo"><a href="./team.html">Team</a></li>
+                        <li class="navlinks_respo"><a href="./contact_us.html">Contact</a></li>
+                        <li class="navlinks_respo"><a href="./careers.html">Careers</a></li>
+                    </div>              
+                </div>
+    
+                <!-- desktop navbar -->
+                <div class="logo"><img src="./media/medival_logo.png" alt="Medieval"></div>
+                <div class="navbar">
+                    <li class="navlinks"><a href="./index.html">Home</a></li> 
+                    <li class="navlinks"><a href="./about-us.html">About us</a></li> 
+                    <div id="product-dropdown"><a id="product-links" href="">Products</a>
+                        <div class="dropdown">
+                            <li class="category"><a href="./medical.html">Medical</a></li>
+                            <li class="category"><a href="./dental.html">Dental</a></li>
+                            <li class="category"><a href="./cssd.html">CSSD</a></li>
+                            <li class="category"><a href="./housekeeping.html">House Keeping</a></li>
+                        </div>
+                    </div>
+                    <li class="navlinks"><a href="./team.html">Team</a></li> 
+                    <li class="navlinks"><a href="./contact_us.html">Contact</a></li>  
+                    <li class="navlinks"><a href="./careers.html">Careers</a></li>             
+                </div>
+    
+                <div class="catalogue">
+                    <button class="catalogue_btn">Catalogue</button>
+                </div>
+                <i class="fa-solid fa-bars" id="hamburger-menu"></i>
+                    
+            </div>     
+        </section>
       <section class="view_product">
         <div class="viewproduct">
             <div class="product_name">
-                <h1 class="product_h1">
-                    IV Stand
+                <h1 class="product_h1" id="product-page-heading">
                 </h1>
             </div>
             <div class="product product_page">
                 <div class="product_image">
-                    <img src="media/products/ivstand.png" alt="" class="product_img">
+                    <img src="" alt="" class="product_img" id="product-page-image">
                 </div>
                 <div class="product_content">
                     <h1 class="p_name">
-                        IV Stand
                     </h1>
                     <hr class="product_hr">
 
@@ -79,12 +116,14 @@
                             <li class="quicklink"><a href="about-us.html">About us</a></li> 
                             <li class="quicklink"><a href="team.html">Team</a></li> 
                             <li class="quicklink"><a href="contact_us.html">Contact</a></li>     
+                            <li class="quicklink"><a href="./careers.html">Careers</a></li>    
                         </div>
                         <div class="footer_categories">
                             <h1 class="footer_cat_head">Category</h1>
-                            <li class="footer_cat"><a href="#">Medical</a></li> 
-                            <li class="footer_cat"><a href="#">Dental</a></li> 
-                            <li class="footer_cat"><a href="#">Veterinary</a></li> 
+                            <li class="footer_cat"><a href="./medical.html">Medical</a></li> 
+                            <li class="footer_cat"><a href="./dental.html">Dental</a></li> 
+                            <li class="footer_cat"><a href="./cssd.html">CSSD</a></li> 
+                            <li class="footer_cat"><a href="./housekeeping.html">house keeping</a></li>
                             
                         </div>
                         <div class="adress">
@@ -126,5 +165,14 @@
 
 
     <script src="main.js"></script>
+
+    <!-- whatsapp toggle -->
+    <script src="./js/whatsapp_toggle.js"></script>
+
+    <!-- nav-bar motion -->
+     <script src="./js/nav-bar.js"></script>
+
+     <!-- product page direction with heading and src of the image -->
+     <script src="./js/product_page.js"></script>
 </body>
 </html>
