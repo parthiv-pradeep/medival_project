@@ -174,5 +174,19 @@
 
      <!-- product page direction with heading and src of the image -->
      <script src="./js/product_page.js"></script>
+
+     <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const product = JSON.parse(localStorage.getItem('selectedProduct'));
+            if (product) {
+                document.getElementById('product-page-image').src = product.image;
+                document.getElementById('product-page-image').alt = product.name;
+                document.getElementById('product-page-heading').textContent = product.name;
+            } else {
+                console.error('No product data found in localStorage.');
+            }
+        });
+    </script>
+
 </body>
 </html>

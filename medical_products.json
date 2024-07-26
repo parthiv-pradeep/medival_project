@@ -1,20 +1,61 @@
 {
     "medical": [
         {
-            "name": "Trolley",
-           "image": "media/products/glouse.png"
+            "name": "IV Stand",
+           "image": "media/products/MEDICAL/IV_STAND.png"
+           
+        },
+        {
+            "name": "Stainless Steel Trolly",
+           "image": "media/products/MEDICAL/STAINLESS_STEEL_TROLLY.png"
+        },
+        {
+            "name": "Crash Cart Trolly",
+           "image": "media/products/MEDICAL/CRASH_CART_TROLLY.png"
+        },
+        {
+            "name": "Revolving Stool",
+           "image": "media/products/MEDICAL/REVOLVING_STOOL.png"
+        },
+        {
+            "name": "Ward Screen",
+           "image": "media/products/MEDICAL/WARDSCREEN.png"
+        },
+        {
+            "name": "BP Aparatus",
+           "image": "media/products/MEDICAL/BP_APPARATUS.png"
+        },
+        {
+            "name": "Thermometer",
+           "image": "media/products/MEDICAL/THERMOMETER.png"
         },
         {
             "name": "Stethoscope",
-           "image": "media/products/glouse.png"
+           "image": "media/products/MEDICAL/STETHOSCOPE.png"
         },
         {
-            "name": "Trolley",
-           "image": "media/products/glouse.png"
+            "name": "Penlight",
+           "image": "media/products/MEDICAL/PENLIGHT.png"
         },
         {
-            "name": "Stethoscope",
-           "image": "media/products/glouse.png"
+            "name": "Nebulizer Machine",
+           "image": "media/products/MEDICAL/NEBULIZER_MACHINE.png"
+        },
+        {
+            "name": "Height And Weight Scale",
+           "image": "media/products/MEDICAL/HIEGHT_AND_WEIGHT _SCALE.png"
+        },
+        {
+            "name": "Examination Lamb",
+           "image": "media/products/MEDICAL/EXAMINATION_LAMB.png"
+        },
+        {
+            "name": "Wheel Chair",
+           "image": "media/products/MEDICAL/WHEEL_CHAIR.png"
+        },
+        {
+            "name": "Battery",
+           "image": "media/products/MEDICAL/BATTERY.png"
         }
     ],
     "disposable": [
