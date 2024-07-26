@@ -1,38 +1,74 @@
-[
-    {
-        "name": "Product 1",
-        "image": "media/products/glouse.png"
-    },
-    {
-        "name": "Product 2",
-        "image": "media/products/glouse.png"
-    },
-    {
-        "name": "Product 3",
-        "image": "media/products/glouse.png"
-    },
-    {
-        "name": "Product 2",
-        "image": "media/products/glouse.png"
-    },
-    {
-        "name": "Product 3",
-        "image": "media/products/glouse.png"
-    },
-    {
-        "name": "Product 2",
-        "image": "media/products/glouse.png"
-    },
-    {
-        "name": "Product 3",
-        "image": "media/products/glouse.png"
-    },
-    {
-        "name": "Product 2",
-        "image": "media/products/glouse.png"
-    },
-    {
-        "name": "Product 3",
-        "image": "media/products/glouse.png"
-    }
-]
+{
+    "medical": [
+        {
+            "name": "Trolley",
+           "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Stethoscope",
+           "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Trolley",
+           "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Stethoscope",
+           "image": "media/products/glouse.png"
+        }
+    ],
+    "disposable": [
+        {
+            "name": "Face Mask",
+            "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Gloves",
+            "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Trolley",
+           "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Stethoscope",
+           "image": "media/products/glouse.png"
+        }
+    ],
+    "dressing": [
+        {
+            "name": "Bandage",
+            "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Gauze",
+            "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Trolley",
+           "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Stethoscope",
+           "image": "media/products/glouse.png"
+        }
+    ],
+    "syringe": [
+        {
+            "name": "Syringe",
+            "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Needle",
+            "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Trolley",
+           "image": "media/products/glouse.png"
+        },
+        {
+            "name": "Stethoscope",
+           "image": "media/products/glouse.png"
+        }
+    ]
+}
