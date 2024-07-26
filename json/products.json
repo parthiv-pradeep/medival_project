@@ -1,0 +1,63 @@
+[
+    {
+        "name" : "alcohol swab",
+        "image" : "media/products/Alcohol_swab.png",
+        "category" : "medical",
+        "subCategory" : "denitta"
+    },
+    {
+        "name" : "alcohol swab",
+        "image" : "media/products/Alcohol_swab.png",
+        "category" : "medical",
+        "subCategory" : "syringe"
+    },
+    {
+        "name" : "sallllam",
+        "image" : "media/products/Alcohol_swab.png",
+        "category" : "vatenary",
+        "subCategory" : "zeba"
+    },
+    {
+        "name" : "alcohol_swab",
+        "image" : "media/products/Alcohol_swab.png",
+        "category" : "medical",
+        "subCategory" : "syringe"
+    },
+    {
+        "name" : "alcohol_swab",
+        "image" : "media/products/Alcohol_swab.png",
+        "category" : "medical",
+        "subCategory" : "akshay"
+    },
+    {
+        "name" : "alcohol swab",
+        "image" : "media/products/Alcohol_swab.png",
+        "category" : "medical",
+        "subCategory" : "denitta"
+    },
+    {
+        "name" : "alcohol swab",
+        "image" : "media/products/Alcohol_swab.png",
+        "category" : "medical",
+        "subCategory" : "syringe"
+    },
+    {
+        "name" : "sallllam",
+        "image" : "media/products/Alcohol_swab.png",
+        "category" : "vatenary",
+        "subCategory" : "zeba"
+    },
+    {
+        "name" : "alcohol_swab",
+        "image" : "media/products/Alcohol_swab.png",
+        "category" : "medical",
+        "subCategory" : "syringe"
+    },
+    {
+        "name" : "alcohol_swab",
+        "image" : "media/products/Alcohol_swab.png",
+        "category" : "medical",
+        "subCategory" : "akshay"
+    }
+
+]
