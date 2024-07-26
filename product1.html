@@ -91,9 +91,7 @@
                     </h1>
                     <hr class="product_hr">
 
-                    <h3 class="p_subname">
-                        Category : Medical <br>
-                        Sub Category : First Aid
+                    <h3 class="p_subname" id="product_subtitle">
                     </h3>
                     <hr class="product_hr">
                 </div></p>
@@ -172,7 +170,20 @@
     <!-- nav-bar motion -->
      <script src="./js/nav-bar.js"></script>
 
-     <!-- product page direction with heading and src of the image -->
-     <script src="./js/product_page.js"></script>
+     <!-- for event delegation -->
+      <script>
+        const heading = document.getElementById('product-page-heading');
+        const image = document.getElementById('product-page-image');
+        image.src = sessionStorage.getItem("imageSrc");
+        heading.textContent = sessionStorage.getItem("heading");
+        subCategory = sessionStorage.getItem("subcategory");
+        category = sessionStorage.getItem("category");
+        if(subCategory){
+            document.getElementById('product_subtitle').innerHTML = `Category : ${category} <br> Sub Category : ${subCategory}`;
+        }
+        else if(category){
+            document.getElementById('product_subtitle').innerHTML = `Category : ${category}`;
+        }
+      </script>
 </body>
 </html>
