@@ -1,115 +1,242 @@
+
 {
-    "medical": [
-        {
-            "name": "IV Stand",
-           "image": "media/products/MEDICAL/IV_STAND.png"
-           
-        },
-        {
-            "name": "Stainless Steel Trolly",
-           "image": "media/products/MEDICAL/STAINLESS_STEEL_TROLLY.png"
-        },
-        {
-            "name": "Crash Cart Trolly",
-           "image": "media/products/MEDICAL/CRASH_CART_TROLLY.png"
-        },
-        {
-            "name": "Revolving Stool",
-           "image": "media/products/MEDICAL/REVOLVING_STOOL.png"
-        },
-        {
-            "name": "Ward Screen",
-           "image": "media/products/MEDICAL/WARDSCREEN.png"
-        },
-        {
-            "name": "BP Aparatus",
-           "image": "media/products/MEDICAL/BP_APPARATUS.png"
-        },
-        {
-            "name": "Thermometer",
-           "image": "media/products/MEDICAL/THERMOMETER.png"
-        },
-        {
-            "name": "Stethoscope",
-           "image": "media/products/MEDICAL/STETHOSCOPE.png"
-        },
-        {
-            "name": "Penlight",
-           "image": "media/products/MEDICAL/PENLIGHT.png"
-        },
-        {
-            "name": "Nebulizer Machine",
-           "image": "media/products/MEDICAL/NEBULIZER_MACHINE.png"
-        },
-        {
-            "name": "Height And Weight Scale",
-           "image": "media/products/MEDICAL/HIEGHT_AND_WEIGHT _SCALE.png"
-        },
-        {
-            "name": "Examination Lamb",
-           "image": "media/products/MEDICAL/EXAMINATION_LAMB.png"
-        },
-        {
-            "name": "Wheel Chair",
-           "image": "media/products/MEDICAL/WHEEL_CHAIR.png"
-        },
-        {
-            "name": "Battery",
-           "image": "media/products/MEDICAL/BATTERY.png"
-        }
-    ],
-    "disposable": [
-        {
-            "name": "Face Mask",
-            "image": "media/products/glouse.png"
-        },
-        {
-            "name": "Gloves",
-            "image": "media/products/glouse.png"
-        },
-        {
-            "name": "Trolley",
-           "image": "media/products/glouse.png"
-        },
-        {
-            "name": "Stethoscope",
-           "image": "media/products/glouse.png"
-        }
-    ],
-    "dressing": [
-        {
-            "name": "Bandage",
-            "image": "media/products/glouse.png"
-        },
-        {
-            "name": "Gauze",
-            "image": "media/products/glouse.png"
-        },
-        {
-            "name": "Trolley",
-           "image": "media/products/glouse.png"
-        },
-        {
-            "name": "Stethoscope",
-           "image": "media/products/glouse.png"
-        }
-    ],
-    "syringe": [
-        {
-            "name": "Syringe",
-            "image": "media/products/glouse.png"
-        },
-        {
-            "name": "Needle",
-            "image": "media/products/glouse.png"
-        },
-        {
-            "name": "Trolley",
-           "image": "media/products/glouse.png"
-        },
-        {
-            "name": "Stethoscope",
-           "image": "media/products/glouse.png"
-        }
-    ]
+"medical":[
+    {
+        "name": "IV Stand",
+       "image": "media/products/MEDICAL/IV_STAND.png"
+       
+    },
+    {
+        "name": "Stainless Steel Trolly",
+       "image": "media/products/MEDICAL/STAINLESS_STEEL_TROLLY.png"
+    },
+    {
+        "name": "Crash Cart Trolly",
+       "image": "media/products/MEDICAL/CRASH_CART_TROLLY.png"
+    },
+    {
+        "name": "Revolving Stool",
+       "image": "media/products/MEDICAL/REVOLVING_STOOL.png"
+    },
+    {
+        "name": "Ward Screen",
+       "image": "media/products/MEDICAL/WARDSCREEN.png"
+    },
+    {
+        "name": "BP Aparatus",
+       "image": "media/products/MEDICAL/BP_APPARATUS.png"
+    },
+    {
+        "name": "Thermometer",
+       "image": "media/products/MEDICAL/THERMOMETER.png"
+    },
+    {
+        "name": "Stethoscope",
+       "image": "media/products/MEDICAL/STETHOSCOPE.png"
+    },
+    {
+        "name": "Penlight",
+       "image": "media/products/MEDICAL/PENLIGHT.png"
+    },
+    {
+        "name": "Nebulizer Machine",
+       "image": "media/products/MEDICAL/NEBULIZER_MACHINE.png"
+    },
+    {
+        "name": "Height And Weight Scale",
+       "image": "media/products/MEDICAL/HIEGHT_AND_WEIGHT _SCALE.png"
+    },
+    {
+        "name": "Examination Lamb",
+       "image": "media/products/MEDICAL/EXAMINATION_LAMB.png"
+    },
+    {
+        "name": "Wheel Chair",
+       "image": "media/products/MEDICAL/WHEEL_CHAIR.png"
+    },
+    {
+        "name": "Battery",
+       "image": "media/products/MEDICAL/BATTERY.png"
+    }
+],
+"disposable": [
+    {
+        "name": "Rectangle Washbasin",
+        "image": "media/products/MEDICAL/RECTANGLE WASHBASIN.png"
+    },
+    {
+        "name": "Kidney Tray Plastic",
+        "image": "media/products/MEDICAL/KIDNY TRAY PLASTIC.png"
+    },
+    {
+        "name": "Male Urinal",
+       "image": "media/products/MEDICAL/MALE URINAL.png"
+    },
+    {
+        "name": "Urine Container",
+       "image": "media/products/MEDICAL/URINE CONTAINER.png"
+    },
+    {
+        "name": "Stool Container",
+        "image": "media/products/MEDICAL/STOOL CONTAINER.png"
+    },
+    {
+        "name": "Sharp Container 5QT",
+        "image": "media/products/MEDICAL/SHARP CONTAINER 5QT"
+    },
+    {
+        "name": "Sharp Container 3Ltr",
+        "image": "media/products/MEDICAL/SHARP CONTAINER 3LTR.png"
+    },
+    {
+        "name": "Sharp Container 5ltr",
+        "image": "media/products/MEDICAL/SHARP CONTAINER 5LTR.png"
+    },
+    {
+        "name": "Sharp Container 10ltr",
+        "image": "media/products/MEDICAL/SHARP CONTAINER 10LTR.png"
+    },
+    {
+        "name": "Nasal Cannula",
+        "image": "media/products/MEDICAL/NASAL CANNULA.png"
+    },
+    {
+        "name": "IV Set",
+        "image": "media/products/MEDICAL/IV SET.png"
+    },
+    {
+        "name": "Suction Connection With Handle",
+        "image": "media/products/MEDICAL/SUCTION CONNECTION WITH HANDLE.png"
+    },
+    {
+        "name": "Oxygen Mask",
+       "image": "media/products/MEDICAL/OXYGEN MASK.png"
+    },
+    {
+        "name": "Nebulizer Mask",
+       "image": "media/products/MEDICAL/NEBULIZER MASK.png"
+    },
+    {
+        "name": "Crashcart Lock",
+        "image": "media/products/MEDICAL/CRASHCART LOCK.png"
+    },
+    {
+        "name": "Surgical Face Mask With Ties",
+        "image": "media/products/MEDICAL/SURGICAL FACE MASK WITH TIES.png"
+    },
+    {
+        "name": "Facemask Mask Ear Loop",
+        "image": "media/products/MEDICAL/7 FACE MASK EAR LOOP.png"
+    },
+    {
+        "name": "N95 Mask",
+        "image": "media/products/MEDICAL/N95.png"
+    },
+    {
+        "name": "Face Shield",
+        "image": "media/products/MEDICAL/FACE SHIELD.png"
+    },
+    {
+        "name": "Disposible Isolation Gown",
+        "image": "media/products/MEDICAL/DISPOSIBLE ISOLATION GOWN.png"
+    },
+    {
+        "name": "Shoe Cover Plastic",
+        "image": "media/products/MEDICAL/SHOE COVER PLASTIC.png"
+    },
+    {
+        "name": "Nurse Cap",
+        "image": "media/products/MEDICAL/NURSES CAP.png"
+    },
+    {
+        "name": "Latex Gloves",
+       "image": "media/products/MEDICAL/LATEX GLOVES.png"
+    },
+    {
+        "name": "Nitrile Gloves",
+       "image": "media/products/MEDICAL/NITRILE GLOVES.png"
+    },
+    {
+        "name": "Surgical Gloves",
+        "image": "media/products/MEDICAL/SURGICAL GLOVES.png"
+    },
+    {
+         "name": "Disposible Razor",
+        "image": "media/products/MEDICAL/ DISPOSIBLE RAZOR.png"
+    },
+    {
+        "name": "Nonwoven Gauze",
+        "image": "media/products/MEDICAL/NONWOVEN GAUZE.png"
+    },
+    {
+        "name": "Non Sterile Gauze",
+        "image": "media/products/MEDICAL/NON STERILE GAUZE.png"
+    },
+    {
+        "name": "Urine Bag",
+        "image": "media/products/MEDICAL/URINE BAG.png"
+    },
+    {
+        "name": "Ear Thermometer Prob Cover",
+        "image": "media/products/MEDICAL/EAR THERMOMETER PROB COVER.png"
+    }
+    ,
+    {
+        "name": "Surgical Blade With Handle",
+        "image": "media/products/MEDICAL/SURGICAL BALDE WITH HANDLE.png"
+    },
+    {
+        "name": "Skin Marker",
+        "image": "media/products/MEDICAL/SKIN MARKER.png"
+    },
+    {
+        "name": "Eye Pad",
+        "image": "media/products/MEDICAL/EYE PAD.png"
+    },
+    {
+        "name": "Vaginal Speculam",
+        "image": "media/products/MEDICAL/VAGINAL SPECULAM.png"
+    },
+    {
+        "name": "Tongue Depressor",
+        "image": "media/products/MEDICAL/TONGUE DEPRESSOR.png"
+    }
+],
+"dressing": [
+    {
+        "name": "Bandage",
+        "image": "media/products/MEDICAL/SHOE COVER PLASTIC.png"
+    },
+    {
+        "name": "Gauze",
+        "image": "media/products/MEDICAL/SHOE COVER PLASTIC.png"
+    },
+    {
+        "name": "Trolley",
+       "image": "media/products/MEDICAL/SHOE COVER PLASTIC.png"
+    },
+    {
+        "name": "Stethoscope",
+       "image": "media/products/MEDICAL/SHOE COVER PLASTIC.png"
+    }
+],
+"syringe": [
+    {
+        "name": "Syringe",
+        "image": "media/products/glouse.png"
+    },
+    {
+        "name": "Needle",
+        "image": "media/products/glouse.png"
+    },
+    {
+        "name": "Trolley",
+       "image": "media/products/glouse.png"
+    },
+    {
+        "name": "Stethoscope",
+       "image": "media/products/glouse.png"
+    }
+]
+
 }
