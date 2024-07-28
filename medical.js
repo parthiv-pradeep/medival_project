@@ -16,8 +16,15 @@ function populateProducts(category, products) {
     container.innerHTML = '';
 
     products.forEach(product => {
-        const card = document.createElement('a');
-        card.href = 'product1.html';
+        const product_link = document.createElement('a');
+        product_link.classList.add('product_page_link');
+        product_link.href = 'product1.html';
+        product_link.addEventListener('click', (event) => {
+            // Store the product details in localStorage
+            localStorage.setItem('selectedProduct', JSON.stringify(product));
+        });
+
+        const card = document.createElement('div');
         card.classList.add('medical_disposible_card');
 
         const imgDiv = document.createElement('div');
@@ -40,6 +47,7 @@ function populateProducts(category, products) {
         nameDiv.appendChild(h4);
         card.appendChild(imgDiv);
         card.appendChild(nameDiv);
-        container.appendChild(card);
+        product_link.appendChild(card);
+        container.appendChild(product_link);
     });
 }
