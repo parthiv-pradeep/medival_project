@@ -3,6 +3,11 @@
     margin: 0px;
     padding: 0px;
     font-family: "poppins";
+    caret-color: transparent;
+}
+
+input{
+  caret-color: black;
 }
 
 body{
@@ -311,11 +316,37 @@ body{
     font-weight: bold;
 }
 
+#home-cat-div{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#home-cat{
+  margin-top: 30px;
+  box-shadow: inset -2px -2px 5px rgba(0, 0, 0, 0.5);
+  border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background: linear-gradient(to left, #564973 50%, #fff 50%)right;
+    background-size: 200% 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s;
+    color: white;
+    background-color: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
 #home-cat:hover {
   background-position: 0 100%;
   color: #14013c;
   background-position: left;
-  border:2px solid #14013c;
+}
+
+#home-cat:active{
+  transform: scale(1.1);
 }
 
 /* navbar respo */
