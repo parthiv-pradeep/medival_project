@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('medical_products.json')
+    fetch('./json/medical_products.json')
         .then(response => response.json())
         .then(data => {
             populateProducts('medical', data.medical);

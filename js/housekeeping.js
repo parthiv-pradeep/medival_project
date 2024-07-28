@@ -1,5 +1,5 @@
   // Fetch the JSON data
-  fetch('housekeeping.json')
+  fetch('./json/housekeeping.json')
   .then(response => response.json())
   .then(data => {
       // Get the container where the products will be displayed

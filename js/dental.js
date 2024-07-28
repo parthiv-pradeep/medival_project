@@ -1,9 +1,17 @@
-// Fetch the JSON data
-fetch('cssd.json')
+  // Fetch the JSON data
+<<<<<<< HEAD:dental.js
+  fetch('dental.json')
     .then(response => response.json())
     .then(data => {
         // Get the container where the products will be displayed
         const container = document.getElementById('card_container');
+=======
+  fetch('./json/dental.json')
+  .then(response => response.json())
+  .then(data => {
+      // Get the container where the products will be displayed
+      const container = document.getElementById('card_container');
+>>>>>>> c9865a28e1ca434a9469cc09deb109ec3fb12b6e:js/dental.js
 
         // Loop through the data and create HTML elements for each product
         data.forEach(product => {

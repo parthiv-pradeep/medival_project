@@ -1,5 +1,5 @@
-  // Fetch the JSON data
-  fetch('dental.json')
+// Fetch the JSON data
+fetch('./json/cssd.json')
     .then(response => response.json())
     .then(data => {
         // Get the container where the products will be displayed

@@ -8,6 +8,7 @@
 body{
   margin-top: 100px;
   background-color: #f5f5f5;
+  overflow-x: hidden;
 }
 
 /* whatsapp chat */
@@ -296,11 +297,25 @@ body{
 }
 
 .catalogue_btn{
-    background-color: #14013cb7;
-    color: #ffff;
     border: none;
     border-radius: 5px;
     padding: 10px 30px;
+    background: linear-gradient(to left, #564973 50%, #fff 50%)right;
+    background-size: 200% 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s;
+    color: white;
+    background-color: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#home-cat:hover {
+  background-position: 0 100%;
+  color: #14013c;
+  background-position: left;
+  border:2px solid #14013c;
 }
 
 /* navbar respo */
@@ -892,7 +907,7 @@ a{
     height: 100vh;
 }
 .product_img{
-    width: 400px;
+    height: 250px;
 
 }
 .viewproduct{
