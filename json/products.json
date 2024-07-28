@@ -85,19 +85,27 @@
     },
     {
         "name": "Cohesive Elastic Bandage",
-        "image": "./media/products/MEDICAL/Dressing/cohesive_elastic_bandage.JPG"
+        "image": "./media/products/MEDICAL/Dressing/cohesive_elastic_bandage.JPG",
+        "category" : "medical",
+        "subCategory" :"medical dressing"
     },
     {
         "name": "Alcohol Swab",
-        "image": "./media/products/MEDICAL/Dressing/alcohol_swab.jpg"
+        "image": "./media/products/MEDICAL/Dressing/alcohol_swab.jpg",
+        "category" : "medical",
+        "subCategory" :"medical dressing"
     },
     {
         "name": "Confirming Bandage",
-        "image": "./media/products/MEDICAL/Dressing/confirming_bandage.JPG"
+        "image": "./media/products/MEDICAL/Dressing/confirming_bandage.JPG",
+        "category" : "medical",
+        "subCategory" :"medical dressing"
     },
     {
         "name": "Surgical Clear Tape",
-        "image": "./media/products/MEDICAL/Dressing/surgical_clear_tape.jpg"
+        "image": "./media/products/MEDICAL/Dressing/surgical_clear_tape.jpg",
+        "category" : "medical",
+        "subCategory" :"medical dressing"
     },
     {
         "name": "Wound Dressing",
@@ -182,5 +190,227 @@
         "image": "./media/products/MEDICAL/Syringe_and_needles/insulin_syringe.JPG",
         "category" : "medical",
         "subCategory" : "medical syringe and needles"
+    },
+    {
+        "name": "Adhesive Drip",
+        "image": "media/products/Cssd/adhesive_drip.PNG",
+        "category" : "cssd",
+        "subCategory" : "cssd"
+    },
+    {
+        "name": "Autoclave Tape",
+        "image": "media/products/Cssd/autoclave_tape.JPG",
+        "category" : "cssd",
+        "subCategory" : "cssd"
+    },
+    {
+        "name": "Bowie And Dick",
+        "image": "media/products/Cssd/bowie_and_dick.JPG",
+        "category" : "cssd",
+        "subCategory" : "cssd"
+    },
+    {
+        "name": "Sterilization Pouch",
+        "image": "media/products/Cssd/sterilization_pouch.jpg",
+        "category" : "cssd",
+        "subCategory" : "cssd"
+    },
+    {
+        "name": "Wrapping Sheet",
+        "image": "media/products/Cssd/wrapping_sheet.JPG",
+        "category" : "cssd",
+        "subCategory" : "cssd"
+    },
+    {
+        "name": "Steam Indicator Strip",
+        "image": "media/products/Cssd/steam_indicator_strip.jpg",
+        "category" : "cssd",
+        "subCategory" : "cssd"
+    },
+    {
+        "name": "Sterilization Reel",
+        "image": "media/products/Cssd/sterilization_reel.JPG",
+        "category" : "cssd",
+        "subCategory" : "cssd"
+    },
+    {
+        "name": "Mixing Bowl",
+        "image": "media/products/Dental/mixing_bowl.JPG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Dental Chaircover",
+        "image": "media/products/Dental/dental_chaircover.JPG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "H File",
+        "image": "media/products/Dental/h_file.JPG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Safety Googles",
+        "image": "media/products/Dental/safety_googles.JPG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Dental Cotton Roll",
+        "image": "media/products/Dental/dental_cotton_roll.JPG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Micro Brush Applicator",
+        "image": "media/products/Dental/micro_brush_applicator.PNG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Ortho Ni Ti Wire",
+        "image": "media/products/Dental/ortho_NI_TI_wire.JPG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Mouth Mirror",
+        "image": "media/products/Dental/mouth_mirror.JPG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "K File",
+        "image": "media/products/Dental/k_file.JPG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Prophy Brush",
+        "image": "media/products/Dental/prophy_brush.jpg",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Dental Bib",
+        "image": "media/products/Dental/dental_bib.jpg",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Dental Needles",
+        "image": "media/products/Dental/dental_needles.PNG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Saliva Ejector",
+        "image": "media/products/Dental/saliva_ejector.PNG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Gp Point",
+        "image": "media/products/Dental/gp_point.JPG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Dental Barrier Film",
+        "image": "media/products/Dental/dental_barrier_film.PNG",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Toilet Roll",
+        "image": "./media/products/Housekeeping/toile_roll.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Sanitizer Dispenser",
+        "image": "./media/products/Housekeeping/sanitization_dispenser.PNG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Black Garbage Bag",
+        "image": "./media/products/Housekeeping/black_garbage_bag.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Hand Soap Dispenser",
+        "image": "./media/products/Housekeeping/hand_soap_dispenser.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Disposable Pillow Cover",
+        "image": "./media/products/Housekeeping/disposable_pillow_cover.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Paper Cup",
+        "image": "./media/products/Housekeeping/paper_cup.jpg",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Maxi Roll",
+        "image": "./media/products/Housekeeping/maxi_roll.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Plastic Trash Bin",
+        "image": "./media/products/Housekeeping/plastic_trash_bin.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Stainless Steel Dustbin",
+        "image": "./media/products/Housekeeping/stainless_steel_dustbin.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Nonwoven Bed Roll",
+        "image": "./media/products/Housekeeping/nonwoven_bed_roll.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Disposable Bedsheet Blue",
+        "image": "./media/products/Housekeeping/disposable_bedsheet_blue.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Facial Tissue",
+        "image": "./media/products/Housekeeping/facial_tissue.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Plastic Cup",
+        "image": "./media/products/Housekeeping/plastic_cup.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "Maxi Roll Dispenser",
+        "image": "./media/products/Housekeeping/maxi_roll_dispenser.PNG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
+    },
+    {
+        "name": "C Fold Tissue Dispenser",
+        "image": "./media/products/Housekeeping/c_fold_tissue_dispenser.JPG",
+        "category" : "house keeping",
+        "subCategory" : "house keeping"
     }
 ]

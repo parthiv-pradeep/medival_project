@@ -98,6 +98,15 @@
             <i id="search-glass" class="fa-solid fa-magnifying-glass"></i>
             <input type="search" name="search" id="search" search-bar >
          </div>
+
+         <!-- prouduct not found -->
+          <div class="not-found" not-found>
+            <h1>
+                product not found!<br>
+                search something else.
+            </h1>
+          </div>
+
          <!-- product container -->
          <section class="product-container" product-cards >
             <template product-card-template>
@@ -132,7 +141,7 @@
                     CSSD
                 </h2>
             </div>
-            <section class="medical_contents" cssd-cards ></section>
+            <section class="medical_contents cat-container" cssd-cards ></section>
 
             <!-- house keeping products -->
             <div class="medical_head" house-keeping-heading>
@@ -206,7 +215,7 @@
         </section>
      </section>
      
-     <script src="main.js"></script>
+     <script src="./js/event_delegation.js"></script>
 
     <!-- whatsapp toggle -->
     <script src="./js/whatsapp_toggle.js"></script>

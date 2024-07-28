@@ -12,7 +12,8 @@ body{
     justify-content: center;
     align-items: center;
     position: sticky;
-    top: 120px;
+    top: 200px;
+    z-index: 1001;
 }
 
 #search-glass{
@@ -29,7 +30,7 @@ a{
 
 input:focus{
     background-color: #dce1f2;
-    box-shadow: 2px 2px 2px rgba(0 , 0, 0, 0.3);
+    box-shadow: 3px 3px 2px rgba(0 , 0, 0, 0.3);
 }
 
 input:focus i{
@@ -37,7 +38,7 @@ input:focus i{
 }
 
 #search{
-    margin-left: 10opx;
+    margin-left: 10px;
 }
 
 input{
@@ -50,9 +51,9 @@ input{
     outline: none;
     transition: border-color 0.3s;
     border: none;
-    background-color: #fff;
+    background-color: white;
     box-sizing: border-box;
-    box-shadow: inset 2px 2px 2px rgba(0 , 0, 0, 0.3);
+    box-shadow: inset -3px -3px 2px rgba(0 , 0, 0, 0.3);
     font-size: 1rem;
     border-radius: 50px;
     padding-left: 25px;
@@ -73,6 +74,17 @@ input{
 }
 
 /* product containers */
+
+/* product not found */
+.not-found{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    text-align: center;
+    font-size: 2.7vw;
+    padding: 5%;
+}
 
 /* heading */
 .medical_head{

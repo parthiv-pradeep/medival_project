@@ -9,13 +9,10 @@ productConatainer.addEventListener('click',
             productClasses = productClasses.split(' ');
             const category = productClasses[1];
             const subCategory = productClasses[2];
-            const currentCard = {
-                "heading" : productName,
-                "src" : imageSrc,
-                "category" : category,
-                "subCategory" : subCategory
-            }
-            sessionStorage.setItem('currentCard', JSON.stringify(currentCard));z
+            sessionStorage.setItem("imageSrc", imageSrc);
+            sessionStorage.setItem("heading", productName);
+            sessionStorage.setItem("subcategory", subCategory);
+            sessionStorage.setItem("category", category);
         }
     }
 )
