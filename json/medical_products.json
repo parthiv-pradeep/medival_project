@@ -60,20 +60,152 @@
     ],
     "disposable": [
         {
-            "name": "Face Mask",
-            "image": "media/products/glouse.png"
+            "name": "7 Face Mask Ear Loop",
+            "image": "./media/products/MEDICAL/disposible/7 FACE MASK EAR LOOP.png"
         },
         {
-            "name": "Gloves",
-            "image": "media/products/glouse.png"
+            "name": "Crashcart Lock",
+            "image": "./media/products/MEDICAL/disposible/CRASHCART LOCK.png"
         },
         {
-            "name": "Trolley",
-           "image": "media/products/glouse.png"
+            "name": "Disposible Isolation Gown",
+            "image": "./media/products/MEDICAL/disposible/DISPOSIBLE ISOLATION GOWN.png"
         },
         {
-            "name": "Stethoscope",
-           "image": "media/products/glouse.png"
+            "name": "Disposible Razor",
+            "image": "./media/products/MEDICAL/disposible/DISPOSIBLE RAZOR.png"
+        },
+        {
+            "name": "Disposible Slipper",
+            "image": "./media/products/MEDICAL/disposible/DISPOSIBLE SLIPPER.png"
+        },
+        {
+            "name": "Ear Thermometer Prob Cover",
+            "image": "./media/products/MEDICAL/disposible/EAR THERMOMETER PROB COVER.png"
+        },
+        {
+            "name": "Eye Pad",
+            "image": "./media/products/MEDICAL/disposible/EYE PAD.png"
+        },
+        {
+            "name": "Face Shield",
+            "image": "./media/products/MEDICAL/disposible/FACE SHIELD.png"
+        },
+        {
+            "name": "Iv Set",
+            "image": "./media/products/MEDICAL/disposible/IV SET.png"
+        },
+        {
+            "name": "Kidny Tray Plastic",
+            "image": "./media/products/MEDICAL/disposible/KIDNY TRAY PLASTIC.png"
+        },
+        {
+            "name": "Latex Gloves",
+            "image": "./media/products/MEDICAL/disposible/LATEX GLOVES.png"
+        },
+        {
+            "name": "Male Urinal",
+            "image": "./media/products/MEDICAL/disposible/MALE URINAL.png"
+        },
+        {
+            "name": "N95",
+            "image": "./media/products/MEDICAL/disposible/N95.png"
+        },
+        {
+            "name": "Nasal Cannula",
+            "image": "./media/products/MEDICAL/disposible/NASAL CANNULA.png"
+        },
+        {
+            "name": "Nebulizer Mask",
+            "image": "./media/products/MEDICAL/disposible/NEBULIZER MASK.png"
+        },
+        {
+            "name": "Nitrile Gloves",
+            "image": "./media/products/MEDICAL/disposible/NITRILE GLOVES.png"
+        },
+        {
+            "name": "Non Sterile Gauze",
+            "image": "./media/products/MEDICAL/disposible/NON STERILE GAUZE.png"
+        },
+        {
+            "name": "Nonwoven Gauze",
+            "image": "./media/products/MEDICAL/disposible/NONWOVEN GAUZE.png"
+        },
+        {
+            "name": "Nurses Cap",
+            "image": "./media/products/MEDICAL/disposible/NURSES CAP.png"
+        },
+        {
+            "name": "Oxygen Mask",
+            "image": "./media/products/MEDICAL/disposible/OXYGEN MASK.png"
+        },
+        {
+            "name": "Rectangle Washbasin",
+            "image": "./media/products/MEDICAL/disposible/RECTANGLE WASHBASIN.png"
+        },
+        {
+            "name": "Sharp Container 10Ltr",
+            "image": "./media/products/MEDICAL/disposible/SHARP CONTAINER 10LTR.png"
+        },
+        {
+            "name": "Sharp Container 3Ltr",
+            "image": "./media/products/MEDICAL/disposible/SHARP CONTAINER 3LTR.png"
+        },
+        {
+            "name": "Sharp Container 5Ltr",
+            "image": "./media/products/MEDICAL/disposible/SHARP CONTAINER 5LTR.png"
+        },
+        {
+            "name": "Sharp Container 5Qt",
+            "image": "./media/products/MEDICAL/disposible/SHARP CONTAINER 5QT.png"
+        },
+        {
+            "name": "Shoe Cover Plastic",
+            "image": "./media/products/MEDICAL/disposible/SHOE COVER PLASTIC.png"
+        },
+        {
+            "name": "Skin Marker",
+            "image": "./media/products/MEDICAL/disposible/SKIN MARKER.png"
+        },
+        {
+            "name": "Stool Container",
+            "image": "./media/products/MEDICAL/disposible/STOOL CONTAINER.png"
+        },
+        {
+            "name": "Suction Connection With Handle",
+            "image": "./media/products/MEDICAL/disposible/SUCTION CONNECTION WITH HANDLE.png"
+        },
+        {
+            "name": "Surgical Balde With Handle",
+            "image": "./media/products/MEDICAL/disposible/SURGICAL BALDE WITH HANDLE.png"
+        },
+        {
+            "name": "Surgical Face Mask With Ties",
+            "image": "./media/products/MEDICAL/disposible/SURGICAL FACE MASK WITH TIES.png"
+        },
+        {
+            "name": "Surgical Gloves",
+            "image": "./media/products/MEDICAL/disposible/SURGICAL GLOVES.png"
+        },
+        {
+            "name": "Tongue Depressor",
+            "image": "./media/products/MEDICAL/disposible/TONGUE DEPRESSOR.png"
+        },
+        {
+            "name": "Under Pad",
+            "image": "./media/products/MEDICAL/disposible/UNDER PAD.png"
+        },
+        {
+            "name": "Urine Bag",
+            "image": "./media/products/MEDICAL/disposible/URINE BAG.png"
+        },
+        {
+            "name": "Urine Container",
+            "image": "./media/products/MEDICAL/disposible/URINE CONTAINER.png"
+        },
+        {
+            "name": "Vaginal Speculam",
+            "image": "./media/products/MEDICAL/disposible/VAGINAL SPECULAM.png"
         }
     ],
     "dressing": [
