@@ -81,8 +81,9 @@
         "image": "media/products/MEDICAL/STOOL CONTAINER.png"
     },
     {
-        "name": "Sharp Container 5QT",
-        "image": "media/products/MEDICAL/SHARP CONTAINER 5QT"
+       
+        "name": "Sharp Container 5ltr",
+        "image": "media/products/MEDICAL/SHARP CONTAINER 5QT.png"
     },
     {
         "name": "Sharp Container 3Ltr",
@@ -125,7 +126,7 @@
         "image": "media/products/MEDICAL/SURGICAL FACE MASK WITH TIES.png"
     },
     {
-        "name": "Facemask Mask Ear Loop",
+        "name": "Face Mask Ear Loop",
         "image": "media/products/MEDICAL/7 FACE MASK EAR LOOP.png"
     },
     {
@@ -162,7 +163,7 @@
     },
     {
          "name": "Disposible Razor",
-        "image": "media/products/MEDICAL/ DISPOSIBLE RAZOR.png"
+        "image": "media/products/MEDICAL/DISPOSIBLE RAZOR.png"
     },
     {
         "name": "Nonwoven Gauze",
