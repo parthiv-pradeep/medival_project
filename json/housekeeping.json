@@ -1,0 +1,62 @@
+[
+        {
+            "name": "Toile Roll",
+            "image": "./media/products/Housekeeping/toile_roll.JPG"
+        },
+        {
+            "name": "Sanitization Dispenser",
+            "image": "./media/products/Housekeeping/sanitization_dispenser.PNG"
+        },
+        {
+            "name": "Black Garbage Bag",
+            "image": "./media/products/Housekeeping/black_garbage_bag.JPG"
+        },
+        {
+            "name": "Hand Soap Dispenser",
+            "image": "./media/products/Housekeeping/hand_soap_dispenser.JPG"
+        },
+        {
+            "name": "Disposable Pillow Cover",
+            "image": "./media/products/Housekeeping/disposable_pillow_cover.JPG"
+        },
+        {
+            "name": "Paper Cup",
+            "image": "./media/products/Housekeeping/paper_cup.jpg"
+        },
+        {
+            "name": "Maxi Roll",
+            "image": "./media/products/Housekeeping/maxi_roll.JPG"
+        },
+        {
+            "name": "Plastic Trash Bin",
+            "image": "./media/products/Housekeeping/plastic_trash_bin.JPG"
+        },
+        {
+            "name": "Stainless Steel Dustbin",
+            "image": "./media/products/Housekeeping/stainless_steel_dustbin.JPG"
+        },
+        {
+            "name": "Nonwoven Bed Roll",
+            "image": "./media/products/Housekeeping/nonwoven_bed_roll.JPG"
+        },
+        {
+            "name": "Disposable Bedsheet Blue",
+            "image": "./media/products/Housekeeping/disposable_bedsheet_blue.JPG"
+        },
+        {
+            "name": "Facial Tissue",
+            "image": "./media/products/Housekeeping/facial_tissue.JPG"
+        },
+        {
+            "name": "Plastic Cup",
+            "image": "./media/products/Housekeeping/plastic_cup.JPG"
+        },
+        {
+            "name": "Maxi Roll Dispenser",
+            "image": "./media/products/Housekeeping/maxi_roll_dispenser.PNG"
+        },
+        {
+            "name": "C Fold Tissue Dispenser",
+            "image": "./media/products/Housekeeping/c_fold_tissue_dispenser.JPG"
+        }
+    ]

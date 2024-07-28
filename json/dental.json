@@ -1,0 +1,62 @@
+[
+        {
+            "name": "Mixing Bowl",
+            "image": "media/products/Dental/mixing_bowl.JPG"
+        },
+        {
+            "name": "Dental Chaircover",
+            "image": "media/products/Dental/dental_chaircover.JPG"
+        },
+        {
+            "name": "H File",
+            "image": "media/products/Dental/h_file.JPG"
+        },
+        {
+            "name": "Safety Googles",
+            "image": "media/products/Dental/safety_googles.JPG"
+        },
+        {
+            "name": "Dental Cotton Roll",
+            "image": "media/products/Dental/dental_cotton_roll.JPG"
+        },
+        {
+            "name": "Micro Brush Applicator",
+            "image": "media/products/Dental/micro_brush_applicator.PNG"
+        },
+        {
+            "name": "Ortho Ni Ti Wire",
+            "image": "media/products/Dental/ortho_NI_TI_wire.JPG"
+        },
+        {
+            "name": "Mouth Mirror",
+            "image": "media/products/Dental/mouth_mirror.JPG"
+        },
+        {
+            "name": "K File",
+            "image": "media/products/Dental/k_file.JPG"
+        },
+        {
+            "name": "Prophy Brush",
+            "image": "media/products/Dental/prophy_brush.jpg"
+        },
+        {
+            "name": "Dental Bib",
+            "image": "media/products/Dental/dental_bib.jpg"
+        },
+        {
+            "name": "Dental Needles",
+            "image": "media/products/Dental/dental_needles.PNG"
+        },
+        {
+            "name": "Saliva Ejector",
+            "image": "media/products/Dental/saliva_ejector.PNG"
+        },
+        {
+            "name": "Gp Point",
+            "image": "media/products/Dental/gp_point.JPG"
+        },
+        {
+            "name": "Dental Barrier Film",
+            "image": "media/products/Dental/dental_barrier_film.PNG"
+        }
+    ]

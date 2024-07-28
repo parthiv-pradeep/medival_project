@@ -1,63 +1,186 @@
 [
     {
-        "name" : "alcohol swab",
-        "image" : "media/products/Alcohol_swab.png",
+        "name" : "IV Stand",
+        "image" : "./media/products/MEDICAL/equipments/IV_STAND.png",
         "category" : "medical",
-        "subCategory" : "denitta"
+        "subCategory" : "medical equipments"
     },
     {
-        "name" : "alcohol swab",
-        "image" : "media/products/Alcohol_swab.png",
+        "name": "Stainless Steel Trolly",
+        "image": "media/products/MEDICAL/equipments/STAINLESS_STEEL_TROLLY.png",
         "category" : "medical",
-        "subCategory" : "syringe"
+        "subCategory" : "medical equipments"
     },
     {
-        "name" : "sallllam",
-        "image" : "media/products/Alcohol_swab.png",
-        "category" : "vatenary",
-        "subCategory" : "zeba"
-    },
-    {
-        "name" : "alcohol_swab",
-        "image" : "media/products/Alcohol_swab.png",
+        "name": "Crash Cart Trolly",
+        "image": "media/products/MEDICAL/equipments/CRASH_CART_TROLLY.png",
         "category" : "medical",
-        "subCategory" : "syringe"
+        "subCategory" : "medical equipments"
     },
     {
-        "name" : "alcohol_swab",
-        "image" : "media/products/Alcohol_swab.png",
+        "name": "Revolving Stool",
+        "image": "media/products/MEDICAL/equipments/REVOLVING_STOOL.png",
         "category" : "medical",
-        "subCategory" : "akshay"
+        "subCategory" : "medical equipments"
     },
     {
-        "name" : "alcohol swab",
-        "image" : "media/products/Alcohol_swab.png",
+        "name": "Ward Screen",
+        "image": "media/products/MEDICAL/equipments/WARDSCREEN.png",
         "category" : "medical",
-        "subCategory" : "denitta"
+        "subCategory" : "medical equipments"
     },
     {
-        "name" : "alcohol swab",
-        "image" : "media/products/Alcohol_swab.png",
+        "name": "BP Aparatus",
+        "image": "media/products/MEDICAL/equipments/BP_APPARATUS.png",
         "category" : "medical",
-        "subCategory" : "syringe"
+        "subCategory" : "medical equipments"
     },
     {
-        "name" : "sallllam",
-        "image" : "media/products/Alcohol_swab.png",
-        "category" : "vatenary",
-        "subCategory" : "zeba"
-    },
-    {
-        "name" : "alcohol_swab",
-        "image" : "media/products/Alcohol_swab.png",
+        "name": "Thermometer",
+        "image": "media/products/MEDICAL/equipments/THERMOMETER.png",
         "category" : "medical",
-        "subCategory" : "syringe"
+        "subCategory" : "medical equipments"
     },
     {
-        "name" : "alcohol_swab",
-        "image" : "media/products/Alcohol_swab.png",
+        "name": "Stethoscope",
+        "image": "media/products/MEDICAL/equipments/STETHOSCOPE.png",
         "category" : "medical",
-        "subCategory" : "akshay"
+        "subCategory" : "medical equipments"
+    },
+    {
+        "name": "Penlight",
+        "image": "media/products/MEDICAL/equipments/PENLIGHT.png",
+        "category" : "medical",
+        "subCategory" : "medical equipments"
+    },
+    {
+        "name": "Nebulizer Machine",
+        "image": "media/products/MEDICAL/equipments/NEBULIZER_MACHINE.png",
+        "category" : "medical",
+        "subCategory" : "medical equipments"
+    },
+    {
+        "name": "Height And Weight Scale",
+        "image": "media/products/MEDICAL/equipments/HIEGHT_AND_WEIGHT _SCALE.png",
+        "category" : "medical",
+        "subCategory" : "medical equipments"
+    },
+    {
+        "name": "Examination Lamb",
+        "image": "media/products/MEDICAL/equipments/EXAMINATION_LAMB.png",
+        "category" : "medical",
+        "subCategory" : "medical equipments"
+    },
+    {
+        "name": "Wheel Chair",
+        "image": "media/products/MEDICAL/equipments/WHEEL_CHAIR.png",
+        "category" : "medical",
+        "subCategory" : "medical equipments"
+    },
+    {
+        "name": "Battery",
+        "image": "media/products/MEDICAL/equipments/BATTERY.png",
+        "category" : "medical",
+        "subCategory" : "medical equipments"
+    },
+    {
+        "name": "Cohesive Elastic Bandage",
+        "image": "./media/products/MEDICAL/Dressing/cohesive_elastic_bandage.JPG"
+    },
+    {
+        "name": "Alcohol Swab",
+        "image": "./media/products/MEDICAL/Dressing/alcohol_swab.jpg"
+    },
+    {
+        "name": "Confirming Bandage",
+        "image": "./media/products/MEDICAL/Dressing/confirming_bandage.JPG"
+    },
+    {
+        "name": "Surgical Clear Tape",
+        "image": "./media/products/MEDICAL/Dressing/surgical_clear_tape.jpg"
+    },
+    {
+        "name": "Wound Dressing",
+        "image": "./media/products/MEDICAL/Dressing/wound_dressing.JPG",
+        "category" : "medical",
+        "subCategory" : "medical dressing"
+    },
+    {
+        "name": "Bandage Long",
+        "image": "./media/products/MEDICAL/Dressing/bandage_long.JPG",
+        "category" : "medical",
+        "subCategory" : "medical dressing"
+    },
+    {
+        "name": "Cotton Ball",
+        "image": "./media/products/MEDICAL/Dressing/cotton_ball.jpg",
+        "category" : "medical",
+        "subCategory" : "medical dressing"
+    },
+    {
+        "name": "Crepe Bandage",
+        "image": "./media/products/MEDICAL/Dressing/crepe_bandage.JPG",
+        "category" : "medical",
+        "subCategory" : "medical dressing"
+    },
+    {
+        "name": "Spot Bandage",
+        "image": "./media/products/MEDICAL/Dressing/spot_bandage.JPG",
+        "category" : "medical",
+        "subCategory" : "medical dressing"
+    },
+    {
+        "name": "Iv Dressing",
+        "image": "./media/products/MEDICAL/Dressing/IV_dressing.PNG",
+        "category" : "medical",
+        "subCategory" : "medical dressing"
+    },
+    {
+        "name": "Surgical Paper Tape",
+        "image": "./media/products/MEDICAL/Dressing/surgical_paper_tape.JPG",
+        "category" : "medical",
+        "subCategory" : "medical dressing"
+    },
+    {
+        "name": "Cotton Tip Applicator",
+        "image": "./media/products/MEDICAL/Dressing/cotton_tip_applicator.JPG",
+        "category" : "medical",
+        "subCategory" : "medical dressing"
+    },
+    {
+        "name": "Blood Lancet",
+        "image": "./media/products/MEDICAL/Syringe_and_needles/blood_lancet.JPG",
+        "category" : "medical",
+        "subCategory" : "medical syringe and needles"
+    },
+    {
+        "name": "Syringe Luerlock",
+        "image": "./media/products/MEDICAL/Syringe_and_needles/syringe_luerlock.jpeg",
+        "category" : "medical",
+        "subCategory" : "medical syringe and needles"
+    },
+    {
+        "name": "Scalp Vein Set",
+        "image": "./media/products/MEDICAL/Syringe_and_needles/scalp_vein_set.jpg",
+        "category" : "medical",
+        "subCategory" : "medical syringe and needles"
+    },
+    {
+        "name": "Hypodermic Needle",
+        "image": "./media/products/MEDICAL/Syringe_and_needles/hypodermic_needle.JPG",
+        "category" : "medical",
+        "subCategory" : "medical syringe and needles"
+    },
+    {
+        "name": "Iv Cannula-Removebg-Preview",
+        "image": "./media/products/MEDICAL/Syringe_and_needles/IV_cannula-removebg-preview.png",
+        "category" : "medical",
+        "subCategory" : "medical syringe and needles"
+    },
+    {
+        "name": "Insulin Syringe",
+        "image": "./media/products/MEDICAL/Syringe_and_needles/insulin_syringe.JPG",
+        "category" : "medical",
+        "subCategory" : "medical syringe and needles"
     }
-
 ]

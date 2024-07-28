@@ -15,7 +15,7 @@ productConatainer.addEventListener('click',
                 "category" : category,
                 "subCategory" : subCategory
             }
-            sessionStorage.setItem('currentCard', JSON.stringify(currentCard));
+            sessionStorage.setItem('currentCard', JSON.stringify(currentCard));z
         }
     }
 )

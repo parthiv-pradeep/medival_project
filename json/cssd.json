@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Adhesive Drip",
+        "image": "media/products/Cssd/adhesive_drip.PNG"
+    },
+    {
+        "name": "Autoclave Tape",
+        "image": "media/products/Cssd/autoclave_tape.JPG"
+    },
+    {
+        "name": "Bowie And Dick",
+        "image": "media/products/Cssd/bowie_and_dick.JPG"
+    },
+    {
+        "name": "Sterilization Pouch",
+        "image": "media/products/Cssd/sterilization_pouch.jpg"
+    },
+    {
+        "name": "Wrapping Sheet",
+        "image": "media/products/Cssd/wrapping_sheet.JPG"
+    },
+    {
+        "name": "Steam Indicator Strip",
+        "image": "media/products/Cssd/steam_indicator_strip.jpg"
+    },
+    {
+        "name": "Sterilization Reel",
+        "image": "media/products/Cssd/sterilization_reel.JPG"
+    }
+]
+    
