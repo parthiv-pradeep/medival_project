@@ -13,7 +13,7 @@ body{
     align-items: center;
     position: sticky;
     top: 200px;
-    z-index: 1001;
+    z-index: 999;
 }
 
 #search-glass{
@@ -82,7 +82,7 @@ input{
     align-items: center;
     color: #555;
     text-align: center;
-    font-size: 2.7vw;
+    font-size: 30px;
     padding: 5%;
 }
 
@@ -96,6 +96,18 @@ input{
     justify-content: center;
     position: sticky;
     top: 100px;
+}
+
+@media  screen and (max-width : 600px) {
+    .search-wrapper{
+        top: 100px;
+        z-index: 999;
+    }
+
+    .medical_head{
+        height: 60px;
+        position: static;
+    }
 }
 
 .medical_head_h1{

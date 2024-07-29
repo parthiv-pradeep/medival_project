@@ -1,18 +1,19 @@
 const productConatainer = document.querySelector("[product-cards]");
+var productName;
+console.log(productConatainer);
+
+
 productConatainer.addEventListener('click',
     function(event){
         const card = event.target.closest('.product_card');
         if(card){
-            const productName = card.querySelector("[card-name]").textContent;
-            const imageSrc = card.querySelector("img").src;
-            var productClasses = card.getAttribute('class')
-            productClasses = productClasses.split(' ');
-            const category = productClasses[1];
-            const subCategory = productClasses[2];
-            sessionStorage.setItem("imageSrc", imageSrc);
-            sessionStorage.setItem("heading", productName);
-            sessionStorage.setItem("subcategory", subCategory);
-            sessionStorage.setItem("category", category);
+            productName = card.querySelector(".card-name").textContent;
+            fetch("./json/products.json").then(res => res.json()).then(data => {
+                const cardDetails = data.find(product => product.name === productName);
+                if(cardDetails){
+                    sessionStorage.setItem("cardDetails", JSON.stringify(cardDetails));
+                }
+            }).catch(error => console.error('Error fetching products:', error));
         }
     }
 )

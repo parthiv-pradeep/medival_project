@@ -19,13 +19,10 @@ function populateProducts(category, products) {
         const product_link = document.createElement('a');
         product_link.classList.add('product_page_link');
         product_link.href = 'product1.html';
-        product_link.addEventListener('click', (event) => {
-            // Store the product details in localStorage
-            localStorage.setItem('selectedProduct', JSON.stringify(product));
-        });
 
         const card = document.createElement('div');
         card.classList.add('medical_disposible_card');
+        card.classList.add('product_card');
 
         const imgDiv = document.createElement('div');
         imgDiv.classList.add('med_disposible_image');
@@ -42,7 +39,9 @@ function populateProducts(category, products) {
 
         const h4 = document.createElement('h4');
         h4.classList.add('med_disposible_name_h4');
+        h4.classList.add('card-name');
         h4.textContent = product.name;
+        
 
         nameDiv.appendChild(h4);
         card.appendChild(imgDiv);

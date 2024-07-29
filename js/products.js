@@ -120,4 +120,4 @@ fetch("./json/products.json").then(res => res.json()).then(data => {
         }
         return {name:product.name, category:product.category, subCategory:product.subCategory, Element:productCard};
     });
-})
+}).catch(error => console.error('Error fetching products:', error));

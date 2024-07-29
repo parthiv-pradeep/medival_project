@@ -1,17 +1,9 @@
   // Fetch the JSON data
-<<<<<<< HEAD:dental.js
-  fetch('dental.json')
-    .then(response => response.json())
-    .then(data => {
-        // Get the container where the products will be displayed
-        const container = document.getElementById('card_container');
-=======
   fetch('./json/dental.json')
   .then(response => response.json())
   .then(data => {
       // Get the container where the products will be displayed
       const container = document.getElementById('card_container');
->>>>>>> c9865a28e1ca434a9469cc09deb109ec3fb12b6e:js/dental.js
 
         // Loop through the data and create HTML elements for each product
         data.forEach(product => {
@@ -19,14 +11,11 @@
             const product_link = document.createElement('a');
             product_link.classList.add('product_page_link');
             product_link.href = 'product1.html';
-            product_link.addEventListener('click', (event) => {
-                // Store the product details in localStorage
-                localStorage.setItem('selectedProduct', JSON.stringify(product));
-            });
 
             // Create a div to hold the product details
             const productDiv = document.createElement('div');
             productDiv.classList.add('medical_disposible_card'); // Add class to the div
+            productDiv.classList.add('product_card');
             product_link.appendChild(productDiv);
 
             // Create an image element
@@ -38,6 +27,7 @@
             // Create a paragraph element for the product name
             const name = document.createElement('h4');
             name.classList.add('med_disposible_name_h4');
+            name.classList.add('card-name');
             name.textContent = product.name;
 
             // Append the image and name to the product div

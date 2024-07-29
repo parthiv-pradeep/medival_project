@@ -57,7 +57,7 @@ body{
     margin: 10px 0px;
 }
 .medical_disposibles_card_container{
-    
+    justify-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
     gap: 30px;

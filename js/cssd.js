@@ -11,14 +11,12 @@ fetch('./json/cssd.json')
             const product_link = document.createElement('a');
             product_link.classList.add('product_page_link');
             product_link.href = 'product1.html';
-            product_link.addEventListener('click', (event) => {
-                // Store the product details in localStorage
-                localStorage.setItem('selectedProduct', JSON.stringify(product));
-            });
+            
 
             // Create a div to hold the product details
             const productDiv = document.createElement('div');
             productDiv.classList.add('medical_disposible_card'); // Add class to the div
+            productDiv.classList.add('product_card');
             product_link.appendChild(productDiv);
 
             // Create an image element
@@ -30,6 +28,7 @@ fetch('./json/cssd.json')
             // Create a paragraph element for the product name
             const name = document.createElement('h4');
             name.classList.add('med_disposible_name_h4');
+            name.classList.add('card-name');
             name.textContent = product.name;
 
             // Append the image and name to the product div

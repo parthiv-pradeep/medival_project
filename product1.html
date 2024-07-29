@@ -174,11 +174,12 @@
       <script>
         const heading = document.getElementById('product-page-heading');
         const image = document.getElementById('product-page-image');
-        image.src = sessionStorage.getItem("imageSrc");
-        heading.textContent = sessionStorage.getItem("heading");
-        subCategory = sessionStorage.getItem("subcategory");
-        category = sessionStorage.getItem("category");
-        if(subCategory){
+        const cardDetails = JSON.parse(sessionStorage.getItem('cardDetails'));
+        heading.textContent = cardDetails.name;
+        image.src = cardDetails.image;
+        category = cardDetails.category;
+        subCategory = cardDetails.subCategory
+        if(subCategory !== category){
             document.getElementById('product_subtitle').innerHTML = `Category : ${category} <br> Sub Category : ${subCategory}`;
         }
         else if(category){

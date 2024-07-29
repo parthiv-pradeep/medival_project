@@ -19,6 +19,7 @@
 
           const productDiv = document.createElement('div');
           productDiv.classList.add('medical_disposible_card'); // Add class to the div
+          productDiv.classList.add('product_card');
           product_link.appendChild(productDiv);
 
           // Create an image element
@@ -30,6 +31,7 @@
           // Create a paragraph element for the product name
           const name = document.createElement('h4');
           name.classList.add('med_disposible_name_h4');
+          name.classList.add('card-name');
           name.textContent = product.name;
 
 
