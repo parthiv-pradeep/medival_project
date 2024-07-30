@@ -99,7 +99,8 @@
         "name": "Disposible Isolation Gown",
         "image": "./media/products/MEDICAL/disposible/DISPOSIBLE ISOLATION GOWN.png",
         "category" : "medical",
-        "subCategory" : "medical Disposable"
+        "subCategory" : "medical Disposable",
+        "fastSellingProduct" : true
     },
     {
         "name": "Disposible Razor",
@@ -123,7 +124,8 @@
         "name": "Eye Pad",
         "image": "./media/products/MEDICAL/disposible/EYE PAD.png",
         "category" : "medical",
-        "subCategory" : "medical Disposable"
+        "subCategory" : "medical Disposable",
+        "fastSellingProduct" : true
     },
     {
         "name": "Face Shield",
@@ -135,7 +137,8 @@
         "name": "Iv Set",
         "image": "./media/products/MEDICAL/disposible/IV SET.png",
         "category" : "medical",
-        "subCategory" : "medical Disposable"
+        "subCategory" : "medical Disposable",
+        "fastSellingProduct" : true
     },
     {
         "name": "Kidny Tray Plastic",
@@ -147,7 +150,8 @@
         "name": "Latex Gloves",
         "image": "./media/products/MEDICAL/disposible/LATEX GLOVES.png",
         "category" : "medical",
-        "subCategory" : "medical Disposable"
+        "subCategory" : "medical Disposable",
+        "fastSellingProduct" : true
     },
     {
         "name": "Male Urinal",
@@ -177,19 +181,22 @@
         "name": "Nitrile Gloves",
         "image": "./media/products/MEDICAL/disposible/NITRILE GLOVES.png",
         "category" : "medical",
-        "subCategory" : "medical Disposable"
+        "subCategory" : "medical Disposable",
+        "fastSellingProduct" : true
     },
     {
         "name": "Non Sterile Gauze",
         "image": "./media/products/MEDICAL/disposible/NON STERILE GAUZE.png",
         "category" : "medical",
-        "subCategory" : "medical Disposable"
+        "subCategory" : "medical Disposable",
+        "fastSellingProduct" : true
     },
     {
         "name": "Nonwoven Gauze",
         "image": "./media/products/MEDICAL/disposible/NONWOVEN GAUZE.png",
         "category" : "medical",
-        "subCategory" : "medical Disposable"
+        "subCategory" : "medical Disposable",
+        "fastSellingProduct" : true
     },
     {
         "name": "Nurses Cap",
@@ -279,7 +286,8 @@
         "name": "Tongue Depressor",
         "image": "./media/products/MEDICAL/disposible/TONGUE DEPRESSOR.png",
         "category" : "medical",
-        "subCategory" : "medical Disposable"
+        "subCategory" : "medical Disposable",
+        "fastSellingProduct" : true
     },
     {
         "name": "Under Pad",
@@ -315,7 +323,8 @@
         "name": "Alcohol Swab",
         "image": "./media/products/MEDICAL/Dressing/alcohol_swab.jpg",
         "category" : "medical",
-        "subCategory" :"medical dressing"
+        "subCategory" :"medical dressing",
+        "fastSellingProduct" : true
     },
     {
         "name": "Conforming Bandage",
@@ -381,19 +390,22 @@
         "name": "Blood Lancet",
         "image": "./media/products/MEDICAL/Syringe_and_needles/blood_lancet.JPG",
         "category" : "medical",
-        "subCategory" : "medical syringe and needles"
+        "subCategory" : "medical syringe and needles",
+        "fastSellingProduct" : true
     },
     {
         "name": "Syringe Luerlock",
         "image": "./media/products/MEDICAL/Syringe_and_needles/syringe_luerlock.jpeg",
         "category" : "medical",
-        "subCategory" : "medical syringe and needles"
+        "subCategory" : "medical syringe and needles",
+        "fastSellingProduct" : true
     },
     {
         "name": "Scalp Vein Set",
         "image": "./media/products/MEDICAL/Syringe_and_needles/scalp_vein_set.jpg",
         "category" : "medical",
-        "subCategory" : "medical syringe and needles"
+        "subCategory" : "medical syringe and needles",
+        "fastSellingProduct" : true
     },
     {
         "name": "Hypodermic Needle",
@@ -561,7 +573,8 @@
         "name": "Black Garbage Bag",
         "image": "./media/products/Housekeeping/black_garbage_bag.JPG",
         "category" : "house keeping",
-        "subCategory" : "house keeping"
+        "subCategory" : "house keeping",
+        "fastSellingProduct" : true
     },
     {
         "name": "Hand Soap Dispenser",
@@ -603,7 +616,8 @@
         "name": "Nonwoven Bed Roll",
         "image": "./media/products/Housekeeping/nonwoven_bed_roll.JPG",
         "category" : "house keeping",
-        "subCategory" : "house keeping"
+        "subCategory" : "house keeping",
+        "fastSellingProduct" : true
     },
     {
         "name": "Disposable Bedsheet Blue",
@@ -615,7 +629,8 @@
         "name": "Facial Tissue",
         "image": "./media/products/Housekeeping/facial_tissue.JPG",
         "category" : "house keeping",
-        "subCategory" : "house keeping"
+        "subCategory" : "house keeping",
+        "fastSellingProduct" : true
     },
     {
         "name": "Plastic Cup",
