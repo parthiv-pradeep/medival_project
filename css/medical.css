@@ -75,3 +75,14 @@ body{
     gap: 30px;
     padding: 30px;
 } 
+@media only screen and (max-width: 710px){
+      
+    .medical_disposibles_card_container{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+        gap: 30px;
+        padding: 30px;
+    
+    }
+}

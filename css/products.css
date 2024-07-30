@@ -100,8 +100,8 @@ input{
 
 @media  screen and (max-width : 600px) {
     .search-wrapper{
-        top: 100px;
-        z-index: 999;
+            top: 123px;
+            z-index: 1;
     }
 
     .medical_head{
@@ -131,8 +131,20 @@ input{
 .cat-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+    justify-content: center;
     gap: 30px;
     padding: 30px;
+}
+@media only screen and (max-width: 710px){
+      
+    .cat-container{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+        gap: 30px;
+        padding: 30px;
+    
+    }
 }
 
 .product_card{

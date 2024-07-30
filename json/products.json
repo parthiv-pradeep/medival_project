@@ -84,6 +84,228 @@
         "subCategory" : "medical equipments"
     },
     {
+        "name": "7 Face Mask Ear Loop",
+        "image": "./media/products/MEDICAL/disposible/7 FACE MASK EAR LOOP.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Crashcart Lock",
+        "image": "./media/products/MEDICAL/disposible/CRASHCART LOCK.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Disposible Isolation Gown",
+        "image": "./media/products/MEDICAL/disposible/DISPOSIBLE ISOLATION GOWN.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Disposible Razor",
+        "image": "./media/products/MEDICAL/disposible/DISPOSIBLE RAZOR.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Disposible Slipper",
+        "image": "./media/products/MEDICAL/disposible/DISPOSIBLE SLIPPER.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Ear Thermometer Prob Cover",
+        "image": "./media/products/MEDICAL/disposible/EAR THERMOMETER PROB COVER.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Eye Pad",
+        "image": "./media/products/MEDICAL/disposible/EYE PAD.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Face Shield",
+        "image": "./media/products/MEDICAL/disposible/FACE SHIELD.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Iv Set",
+        "image": "./media/products/MEDICAL/disposible/IV SET.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Kidny Tray Plastic",
+        "image": "./media/products/MEDICAL/disposible/KIDNY TRAY PLASTIC.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Latex Gloves",
+        "image": "./media/products/MEDICAL/disposible/LATEX GLOVES.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Male Urinal",
+        "image": "./media/products/MEDICAL/disposible/MALE URINAL.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "N95",
+        "image": "./media/products/MEDICAL/disposible/N95.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Nasal Cannula",
+        "image": "./media/products/MEDICAL/disposible/NASAL CANNULA.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Nebulizer Mask",
+        "image": "./media/products/MEDICAL/disposible/NEBULIZER MASK.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Nitrile Gloves",
+        "image": "./media/products/MEDICAL/disposible/NITRILE GLOVES.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Non Sterile Gauze",
+        "image": "./media/products/MEDICAL/disposible/NON STERILE GAUZE.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Nonwoven Gauze",
+        "image": "./media/products/MEDICAL/disposible/NONWOVEN GAUZE.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Nurses Cap",
+        "image": "./media/products/MEDICAL/disposible/NURSES CAP.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Oxygen Mask",
+        "image": "./media/products/MEDICAL/disposible/OXYGEN MASK.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Rectangle Washbasin",
+        "image": "./media/products/MEDICAL/disposible/RECTANGLE WASHBASIN.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Sharp Container 10Ltr",
+        "image": "./media/products/MEDICAL/disposible/SHARP CONTAINER 10LTR.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Sharp Container 3Ltr",
+        "image": "./media/products/MEDICAL/disposible/SHARP CONTAINER 3LTR.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Sharp Container 5Ltr",
+        "image": "./media/products/MEDICAL/disposible/SHARP CONTAINER 5LTR.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Sharp Container 5Qt",
+        "image": "./media/products/MEDICAL/disposible/SHARP CONTAINER 5QT.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Shoe Cover Plastic",
+        "image": "./media/products/MEDICAL/disposible/SHOE COVER PLASTIC.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Skin Marker",
+        "image": "./media/products/MEDICAL/disposible/SKIN MARKER.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Stool Container",
+        "image": "./media/products/MEDICAL/disposible/STOOL CONTAINER.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Suction Connection With Handle",
+        "image": "./media/products/MEDICAL/disposible/SUCTION CONNECTION WITH HANDLE.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Surgical Balde With Handle",
+        "image": "./media/products/MEDICAL/disposible/SURGICAL BALDE WITH HANDLE.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Surgical Face Mask With Ties",
+        "image": "./media/products/MEDICAL/disposible/SURGICAL FACE MASK WITH TIES.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Surgical Gloves",
+        "image": "./media/products/MEDICAL/disposible/SURGICAL GLOVES.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Tongue Depressor",
+        "image": "./media/products/MEDICAL/disposible/TONGUE DEPRESSOR.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Under Pad",
+        "image": "./media/products/MEDICAL/disposible/UNDER PAD.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Urine Bag",
+        "image": "./media/products/MEDICAL/disposible/URINE BAG.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Urine Container",
+        "image": "./media/products/MEDICAL/disposible/URINE CONTAINER.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
+        "name": "Vaginal Speculam",
+        "image": "./media/products/MEDICAL/disposible/VAGINAL SPECULAM.png",
+        "category" : "medical",
+        "subCategory" : "medical Disposable"
+    },
+    {
         "name": "Cohesive Elastic Bandage",
         "image": "./media/products/MEDICAL/Dressing/cohesive_elastic_bandage.JPG",
         "category" : "medical",
@@ -96,7 +318,7 @@
         "subCategory" :"medical dressing"
     },
     {
-        "name": "Confirming Bandage",
+        "name": "Conforming Bandage",
         "image": "./media/products/MEDICAL/Dressing/confirming_bandage.JPG",
         "category" : "medical",
         "subCategory" :"medical dressing"
@@ -192,7 +414,7 @@
         "subCategory" : "medical syringe and needles"
     },
     {
-        "name": "Adhesive Drip",
+        "name": "Adhesive Drape",
         "image": "media/products/Cssd/adhesive_drip.PNG",
         "category" : "cssd",
         "subCategory" : "cssd"
