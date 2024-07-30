@@ -342,7 +342,7 @@
         </footer>
     </section>
 
-    <!-- dynamically create fast seslling product cards with template -->
+    <!-- dynamically create fast selling product cards with template -->
      <script>
         productTemplate = document.querySelector("[product-card-template]");
         productContainer = document.querySelector("[product-cards]");
@@ -360,22 +360,16 @@
                 const card = event.target.closest('.product_card');
                 if(card){
                 productName = card.querySelector(".card-name").textContent;
-                sessionStorage.setItem('name',productName);
-                    fetch("./json/fast_selling_products.json").then(res => res.json()).then(data => {
-                    const cardDetails = data.find(product => product.name === productName);
-                    if(cardDetails){
-                        sessionStorage.setItem("cardDetails", JSON.stringify(cardDetails));
-                    }
-                    }).catch(error => console.error('Error fetching products:', error));
+                fetch("./json/fast_selling_products.json").then(res => res.json()).then(data => {
+                const cardDetails = data.find(product => product.name === productName);
+                if(cardDetails){
+                    sessionStorage.setItem("cardDetails", JSON.stringify(cardDetails));
+                }
+                }).catch(error => console.error('Error fetching products:', error));
                 }
             }
         )
      </script>
-
-     <!-- direct fast selling product card to product page -->
-      <script>
-
-      </script>
 
     <!-- whatsapp toggle -->
     <script src="./js/whatsapp_toggle.js"></script>

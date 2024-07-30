@@ -7,7 +7,6 @@ productContainer.addEventListener('click',
         const card = event.target.closest('.product_card');
         if(card){
             productName = card.querySelector(".card-name").textContent;
-            sessionStorage.setItem('name',productName);
             fetch("./json/products.json").then(res => res.json()).then(data => {
                 const cardDetails = data.find(product => product.name === productName);
                 if(cardDetails){

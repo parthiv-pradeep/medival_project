@@ -19,7 +19,7 @@ body {
 
 .fa-solid{
     z-index: 1;
-    color: #564973;
+    color: #13103e;
     font-size: 18px;
 }  
 
@@ -30,8 +30,8 @@ body {
 
 /* main heading */
 .main-heading {
-    background-color: #564973;
-    color: white;
+    background-color: #ADD8E6;
+    color: #13103e;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,7 +121,7 @@ body {
 }
 
 .contact-info .info-box {
-    background-color: #564973;
+    background-color: #13103ee8;
     color: white;
     padding: 30px;
     text-align: center;
@@ -431,7 +431,7 @@ input:focus, textarea:focus {
 .visit-us {
     display: flex;
     flex-direction: column;
-    background-color: #564973;
+    background-color: #13103e;
     color: white;
     transition: transform 3s;
 }
