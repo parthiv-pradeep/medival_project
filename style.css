@@ -4,6 +4,7 @@
     padding: 0px;
     font-family: "poppins";
     caret-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 input{
@@ -172,7 +173,7 @@ body{
     text-align: center;
     margin: 0px auto;
     box-shadow: 0px 0px 5px rgba(100, 98, 98, 0.356);
-    z-index: 999;
+    z-index: 1000;
 }
 
 .navbar{
@@ -200,7 +201,7 @@ body{
   border-radius: 3px;
   position: absolute;
   top: 19px;
-  background-color: #564973;
+  background-color: #13103e;
   left: 50%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
   display: none;
@@ -251,7 +252,7 @@ body{
 }
 
 .nav .dropdown .category:hover a{
-  color: #564973;
+  color: #13103e;
 }
 
 .navlinks a{
@@ -306,7 +307,7 @@ body{
     border: none;
     border-radius: 5px;
     padding: 10px 30px;
-    background: linear-gradient(to left, #564973 50%, #fff 50%)right;
+    background: linear-gradient(to left, #13103e 50%, #fff 50%)right;
     background-size: 200% 100%;
     border-radius: 5px;
     cursor: pointer;
@@ -329,7 +330,7 @@ body{
   border: none;
   border-radius: 5px;
   padding: 10px 30px;
-  background: linear-gradient(to left, #564973 50%, #fff 50%)right;
+  background: linear-gradient(to left, #13103e 50%, #fff 50%)right;
   background-size: 200% 100%;
   border-radius: 5px;
   cursor: pointer;
@@ -382,7 +383,7 @@ body{
 }
 
 .nav-links {
-  background-color: #564973;
+  background-color: #13103e;
   border-radius: 0 0 12px 12px;
 }
 
@@ -400,7 +401,7 @@ body{
 
 .navlinks_respo{
     display: flex;
-    border-top: 0.5px solid rgba(0, 0, 0, 0.12);
+    border-top: 0.5px solid rgba(255, 255, 255, 0.2);
     padding: 15px;
     justify-content: space-around;
     border-radius: 12px;
@@ -511,7 +512,7 @@ body{
 
 .category_card:hover {
     transition: 400ms;
-    background-color: #564973;
+    background-color: #13103e;
 }
 .category_card:hover .icon i{
     transition: 1s;
@@ -527,7 +528,7 @@ body{
     margin:20px
 }
 .name h5{
-    color: #564973;
+    color: #13103e;
     font-size: 18px;
 }
 
@@ -542,7 +543,7 @@ a{
 }
 .fa-solid{
     z-index: 1;
-    color: #564973;
+    color: #13103e;
     font-size: 18px;
 }
 
@@ -716,12 +717,43 @@ a{
 
 /* foooter design */
 
+/* sister companies */
+
+.sister-companies img{
+  display: block;
+  max-width: 200px;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sister-companies{
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.companies-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footermain{
     padding: 40px 0px;
     height: 60vh;
     background-color: #fff;
     display: flex;
     flex-direction: column;
+}
+
+.footerlogo{
+  margin-bottom: 20px;
 }
 
 .footer_top{
@@ -753,7 +785,7 @@ a{
     font-size: 18px;
     font-weight: 500;
     text-decoration: underline;
-    text-decoration-color: #564973;
+    text-decoration-color: #13103e;
 }
 .Quick_links li a {
   position: relative;
@@ -799,7 +831,7 @@ a{
     font-size: 18px;
     font-weight: 500;
     text-decoration: underline;
-    text-decoration-color: #564973;
+    text-decoration-color: #13103e;
 }
 
 /* footerlink hover */
@@ -839,7 +871,7 @@ a{
 }
 .adress p{
     font-size: 13px;
-    color: #564973;
+    color: #13103e;
 }
 .add_text{
     text-align: left;
@@ -866,7 +898,7 @@ a{
 }
 .contact_mail i{
     font-size: 22px;
-    color: #564973;
+    color: #13103e;
 }
 
 .footermain{
@@ -933,7 +965,7 @@ a{
 
 }
 
-/* product showing */
+/*  showing */
 
 .viewproduct{
     height: 100vh;
@@ -980,7 +1012,7 @@ a{
     align-items: center;
 }
 .p_name{
-    color: #564973;
+    color: #13103e;
     font-size: 32px;
     margin: 30px 0px;
 }
@@ -1000,7 +1032,7 @@ a{
     }
     
 .p_name{
-    color: #564973;
+    color: #13103e;
     font-size: 22px;
     margin: 30px 0px;
 }
@@ -1057,6 +1089,21 @@ a{
     flex-wrap: wrap; */
 
 }
+
+/* fast selling product conatainer */
+.home-product-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2rem;
+  margin: 20px;
+}
+
+@media screen and (max-width : 600px) {
+  .home-product-container{
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
 .product_card{
     display: flex;
     flex-direction: column;
@@ -1069,6 +1116,7 @@ a{
     box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
+
 .product_card:hover{
     box-shadow: 0px 0px 20px grey;
     transition: .5s;
@@ -1082,7 +1130,7 @@ a{
 }
 .main_p_h1{
   margin: 20px;
-    color: #564973;
+    color: #13103e;
 }
 .product_page{
   display: flex;
@@ -1226,7 +1274,7 @@ a{
   width: 100%;
   height: 100%;
   padding: 2em 1.5em;
-  background: linear-gradient(#ffffff 50%, #564973 50%);
+  background: linear-gradient(#ffffff 50%, #13103e 50%);
   background-size: 100% 200%;
   background-position: 0 2.5%;
   border-radius: 5px;
@@ -1257,7 +1305,7 @@ h4{
 
 
 .icon-wrapper i {
-  background-color: #564973;
+  background-color: #13103e;
   position: relative;
   margin: auto;
   font-size: 30px;

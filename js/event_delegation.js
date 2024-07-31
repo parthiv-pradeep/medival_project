@@ -1,9 +1,8 @@
-const productConatainer = document.querySelector("[product-cards]");
+const productContainer = document.querySelector("[product-cards]");
 var productName;
-console.log(productConatainer);
 
 
-productConatainer.addEventListener('click',
+productContainer.addEventListener('click',
     function(event){
         const card = event.target.closest('.product_card');
         if(card){

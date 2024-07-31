@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Iv Set",
+        "image": "./media/products/fast_selling_products/IV_Set.png"
+    },
+    {
+        "name": "Syringe",
+        "image": "./media/products/fast_selling_products/Syringe.png"
+    },
+    {
+        "name": "Eye Pad",
+        "image": "./media/products/fast_selling_products/Eye_Pad.png"
+    },
+    {
+        "name": "Tonguedepressor",
+        "image": "./media/products/fast_selling_products/tonguedepressor.png"
+    },
+    {
+        "name": "Inter-Fold-Tissues",
+        "image": "./media/products/fast_selling_products/inter-fold-tissues.png"
+    },
+    {
+        "name": "Glouse Nitrile",
+        "image": "./media/products/fast_selling_products/Glouse_Nitrile.png"
+    },
+    {
+        "name": "Gauze Swab",
+        "image": "./media/products/fast_selling_products/Gauze_swab.png"
+    },
+    {
+        "name": "Waste Bag",
+        "image": "./media/products/fast_selling_products/Waste_bag.png"
+    },
+    {
+        "name": "Glouse Latex",
+        "image": "./media/products/fast_selling_products/Glouse_Latex.png"
+    },
+    {
+        "name": "Scalp Vein Set",
+        "image": "./media/products/fast_selling_products/Scalp_Vein_Set.png"
+    },
+    {
+        "name": "Isolation Gown",
+        "image": "./media/products/fast_selling_products/Isolation_Gown.png"
+    },
+    {
+        "name": "Bed Roll",
+        "image": "./media/products/fast_selling_products/Bed_Roll.png"
+    },
+    {
+        "name": "Alcohol Swab",
+        "image": "./media/products/fast_selling_products/Alcohol_Swab.png"
+    }
+]
