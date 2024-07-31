@@ -293,10 +293,11 @@ body{
     align-items: center;
     width: 150px;
 }
+
 .logo img{
-    height: 150px;
-    margin-left: 10px;
+    height: 30px;
 }
+
 .catalogue{
     display: flex;
     align-items: center;
