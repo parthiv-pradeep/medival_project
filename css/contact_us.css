@@ -424,6 +424,7 @@ input:focus, textarea:focus {
     }
     .faq {
         min-height: 30rem;
+        padding: 10px;
     }
 }
 

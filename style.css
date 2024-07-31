@@ -4,10 +4,7 @@
     padding: 0px;
     font-family: "poppins";
     caret-color: transparent;
-}
-
-a{
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 input{
@@ -176,7 +173,7 @@ body{
     text-align: center;
     margin: 0px auto;
     box-shadow: 0px 0px 5px rgba(100, 98, 98, 0.356);
-    z-index: 999;
+    z-index: 1000;
 }
 
 .navbar{
@@ -404,7 +401,7 @@ body{
 
 .navlinks_respo{
     display: flex;
-    border-top: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-top: 0.5px solid rgba(255, 255, 255, 0.2);
     padding: 15px;
     justify-content: space-around;
     border-radius: 12px;
@@ -720,12 +717,43 @@ a{
 
 /* foooter design */
 
+/* sister companies */
+
+.sister-companies img{
+  display: block;
+  max-width: 200px;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sister-companies{
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.companies-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footermain{
     padding: 40px 0px;
     height: 60vh;
     background-color: #fff;
     display: flex;
     flex-direction: column;
+}
+
+.footerlogo{
+  margin-bottom: 20px;
 }
 
 .footer_top{
