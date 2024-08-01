@@ -929,6 +929,7 @@ a{
 }
 .footer_img{
     height: 50px;
+width: auto;
 }
 .Quick_links{
     display: flex;
