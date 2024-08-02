@@ -905,6 +905,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
+  overflowX : hidden;
 }
 
 .sister-companies{
