@@ -901,6 +901,12 @@ a{
   max-width: 200px;
 }
 
+@media only screen and (max-width:450px) {
+  .sister-companies img{
+    max-width: 150px;
+  }
+}
+
 .logo-container{
   display: flex;
   align-items: center;
