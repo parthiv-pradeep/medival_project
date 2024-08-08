@@ -911,7 +911,6 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  overflowX : hidden;
 }
 
 .sister-companies{
@@ -1099,6 +1098,7 @@ width: auto;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  width: 60%;
 }
 
 @media only screen and (max-width: 710px) {
