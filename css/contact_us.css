@@ -236,6 +236,7 @@ body {
 }
 
 .form-img img{
+    display: block;
     height: 40rem;
     width: auto;
     border-radius: 0 8px 8px 0;

@@ -725,7 +725,7 @@ a{
   text-decoration: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1300px) {
 
     #hamburger-menu {
       display: block;
@@ -899,6 +899,12 @@ a{
 .sister-companies img{
   display: block;
   max-width: 200px;
+}
+
+@media only screen and (max-width:450px) {
+  .sister-companies img{
+    max-width: 150px;
+  }
 }
 
 .logo-container{
@@ -1091,8 +1097,8 @@ width: auto;
   padding-left: 30px;
   display: flex;
   justify-content: space-evenly;
-  width: 40rem;
   flex-direction: row;
+  width: 60%;
 }
 
 @media only screen and (max-width: 710px) {
