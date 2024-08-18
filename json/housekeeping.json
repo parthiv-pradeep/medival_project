@@ -28,6 +28,18 @@
             "image": "./media/products/Housekeeping/maxi_roll.JPG"
         },
         {
+            "name": "Medical Waste Bag",
+            "image": "./media/products/Housekeeping/Waste_bag.png"
+        },
+        {
+            "name": "Bed Roll",
+            "image": "./media/products/Housekeeping/Bed_Roll.png"
+        },
+        {
+            "name": "Inter-Fold-Tissues",
+            "image": "./media/products/Housekeeping/inter-fold-tissues.png"
+        },
+        {
             "name": "Plastic Trash Bin",
             "image": "./media/products/Housekeeping/plastic_trash_bin.JPG"
         },

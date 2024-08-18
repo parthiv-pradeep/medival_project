@@ -476,6 +476,7 @@ input:focus, textarea:focus {
 .visit-us p {
     text-align: center;
     margin: 10px;
+    padding: 0 8vw;
 }
 
 .map {
