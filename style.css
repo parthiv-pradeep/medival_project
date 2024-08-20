@@ -1432,11 +1432,21 @@ footer .work-time{
   transform: scale(1);
 }
 .team_img{
-  border-radius: 50%;
   width: 200px;
+  border-radius: 80%;
 }
+
+.team_lower .team_img{
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  max-height: 200px;
+}
+
 .team_name_h6{
   font-size: 20px;
+  text-align: center;
 }
 
 .teamdiv{
