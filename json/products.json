@@ -395,7 +395,7 @@
     },
     {
         "name": "Syringe Luerlock",
-        "image": "./media/products/MEDICAL/Syringe_and_needles/syringe_luerlock.png",
+        "image": "./media/products/MEDICAL/Syringe_and_needles/Syringe.png",
         "category" : "medical",
         "subCategory" : "medical syringe and needles",
         "fastSellingProduct" : true
