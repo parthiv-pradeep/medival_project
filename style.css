@@ -864,6 +864,8 @@ a{
 
 @media screen and (max-width:1000px) {
 
+  
+
   .about--us {
     flex-direction: column;
     position: static;
@@ -902,6 +904,16 @@ a{
 }
 
 @media only screen and (max-width:450px) {
+  .home{
+    background-image: url(media/Fallback_img.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .home_p{
+    color: black;
+    
+  }
   .sister-companies img{
     max-width: 150px;
   }
