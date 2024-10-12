@@ -137,30 +137,29 @@
                     <i class="material-symbols-outlined">edit_square</i>
                     <h2>Contact Form</h2>
                 </div>
-                <form id="submit-form" enctype="multipart/form-data" action="">
+                <form id="submit-form" enctype="multipart/form-data">
                     <div class="form-attribute">
-                        <label for="from_name">Name</label>
-                        <input type="text" id="from_name" name="from_name" required>
-                    </div>
-                    <div class="form-attribute">
-                        <label for="from_email">Email</label>
-                        <input type="email" id="from_email" name="from_email" required>
+                      <label for="from_name">Name</label>
+                      <input type="text" id="from_name" name="from_name" required>
                     </div>
                     <div class="form-attribute">
-                        <label for="phone">Phone</label>
-                        <input type="tel" id="phone" name="phone" required>
-                    </div>
-                    <div class="form-attribute" id="query-box">
-                        <label for="query">Query</label>
-                        <textarea class="query-textarea" id="query" name="query" rows="4" maxlength="200" required></textarea>
-                        <div id="char-count">0 / 200</div>
+                      <label for="from_email">Email</label>
+                      <input type="email" id="from_email" name="from_email" required>
                     </div>
                     <div class="form-attribute">
-                        <label for="filename">CV</label>
-                        <input type="file" id="filename" name="filename" required>
+                      <label for="phone">Phone</label>
+                      <input type="tel" id="phone" name="phone" required>
                     </div>
+                    <div class="form-attribute">
+                      <label for="aboutme">Tell Us About Yourself</label>
+                      <textarea id="aboutme" name="aboutme" rows="4" maxlength="200" required></textarea>
+                    </div>
+                    <!-- <div class="form-attribute">
+                      <label for="filename">CV</label>
+                      <input type="file" id="filename" name="filename" required>
+                    </div> -->
                     <button class="submit" type="submit">Submit</button>
-                </form>
+                  </form>
             </div>
             <div class="form-img">
                 <img src="./media/careers_form.jpg" alt="medical form ">
@@ -253,7 +252,7 @@
                 <div class="footer_bottom">
                     <div class="social_media">
                         <a href="https://www.instagram.com/medievallife.uae?igsh=MTd2dzVnbzMyZmg5bQ==" class="social_media_icon"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" class="social_media_icon"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="" class="social_media_icon"><i class="fa-brands fa-whatsapp"></i></a>
                         <a href="https://www.facebook.com/share/w6tSSqJGZ9evBL5D/?mibextid=LQQJ4d" class="social_media_icon"><i class="fa-brands fa-facebook"></i></a>
                         
                     </div>
@@ -275,31 +274,27 @@
     <!-- for whatsapp toggle -->
      <script src="./js/whatsapp_toggle.js"></script>
 
-     <!-- form submission through gform -->
-     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-  $("#submit-form").submit((e) => {
-    e.preventDefault();
-
-    // Create a new FormData object from the form element
-    var formData = new FormData(document.getElementById("submit-form"));
-
-    $.ajax({
-      url: "https://script.google.com/macros/s/AKfycbwJUgxvhtSobA1K6GqJBpsBA05D74Aw-pw2JRCZWWzk4o4looCqlXLCHXy3H95XpVPMZw/exec",
-      data: formData,
-      method: "POST",
-      processData: false,
-      contentType: false,
-      success: function(response) {
-        alert("Form submitted successfully");
-        window.location.reload();
-      },
-      error: function(err) {
-        alert("Something went wrong");
-      }
-    });
-  });
-</script>
+     <!-- leads sender script -->
+    <script>
+        document.getElementById('submit-form').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent default form submission
+        
+          var formData = new FormData(event.target);
+        
+          fetch('https://script.google.com/macros/s/AKfycbwkD9DxpFO0p7HiebDXqb4IXDRZ9yh4ZOIKMAUyPXZ5s97Y_VXUIYsY5_53eLpcBxU/exec', {
+            method: 'POST',
+            body: formData
+          })
+          .then(response => response.json())
+          .then(data => {
+            alert('Form Submitted Successfully!');
+          })
+          .catch(error => {
+            alert('There was an error submitting the form.');
+          });
+        });
+        </script>
+      
 
 
 </body>

@@ -167,7 +167,7 @@
                   <div id="char-count">0 / 200</div>
                 </div>
                 <button class="submit" type="submit">Submit</button>
-            </form>
+              </form>
         </div>
         <div class="form-img">
             <img src="./media/form-pic.jpg" alt="medical form">
@@ -322,14 +322,14 @@
     <!-- nav-bar motion -->
      <script src="./js/nav-bar.js"></script>
 
-     <!-- form submission with chatGpt code -->
-     <script>
+     <!-- leads sender script -->
+    <script>
         document.getElementById('submit-form').addEventListener('submit', function(event) {
           event.preventDefault(); // Prevent default form submission
-          
+        
           var formData = new FormData(event.target);
         
-          fetch('https://script.google.com/macros/s/AKfycbyJKXNUUii8BbpTXAMaD6o56jz7t-AtsGaiOfRpJ79tFHmgeHn9ODgmE4MnDXe0Oy2H/exec', {
+          fetch('https://script.google.com/macros/s/AKfycbwikrFIWXOd67pfTIRK9sC-IRXUGcdiSRU4E4kQ0SkmKC2kxxGD-BjYPUP5N6U8-YwBOg/exec', {
             method: 'POST',
             body: formData
           })
@@ -343,26 +343,7 @@
         });
         </script>
 
-     <!-- form submission through gform
-     <script>
-        $("#submit-form").submit((e)=>{
-            e.preventDefault()
-            $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbxsWzrKe20uG_dAmC6oFIVtAd6FZnUwrLnKWgVKKBWDAUv3-UdVDfZjkdJleT_Up1_0lg/exec",
-                data:$("#submit-form").serialize(),
-                method:"post",
-                success:function (response){
-                    alert("Form submitted successfully")
-                    window.location.reload()
-                    //window.location.href="https://google.com"
-                },
-                error:function (err){
-                    alert("Something Error")
-    
-                }
-            })
-        })
-    </script> -->
+
 
 </body>
 </html>
