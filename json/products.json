@@ -492,6 +492,30 @@
         "subCategory" : "dental"
     },
     {
+        "name": "Prophy cup latch white",
+        "image": "media/products/Dental/prophy-cup-latch-white.png",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Wooden wedges",
+        "image": "media/products/Dental/Wooden_wedges.png",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "3 way airwater syringe",
+        "image": "media/products/Dental/3way_airwater_syringe.png",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
+        "name": "Paper point",
+        "image": "media/products/Dental/Paper_Points.png",
+        "category" : "dental",
+        "subCategory" : "dental"
+    },
+    {
         "name": "Dental Cotton Roll",
         "image": "media/products/Dental/dental_cotton_roll.JPG",
         "category" : "dental",

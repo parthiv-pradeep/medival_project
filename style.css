@@ -7,6 +7,10 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+a{
+  color: #13103e;
+}
+
 input{
   caret-color: black;
 }
