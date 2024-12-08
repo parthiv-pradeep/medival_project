@@ -320,7 +320,6 @@ input:focus, textarea:focus {
 }
 
 .form-container label {
-
     position: absolute;
     top:-2px;
     left: 10px;
