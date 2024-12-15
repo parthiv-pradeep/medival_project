@@ -7,6 +7,19 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+footer  a{
+  text-decoration: none;
+  color: #333;
+}
+
+footer .footer_bottom a{
+  color: #13103e;
+}
+
+div .product_card h4{
+  color: #14013c;
+}
+
 input{
   caret-color: black;
 }
